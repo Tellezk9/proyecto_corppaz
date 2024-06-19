@@ -8,9 +8,9 @@ function App() {
         <div className="Div-image">
           <img src={logo} className="App-logo" alt="logo" />
         </div>
-        <p>
+        <h1>
           Sitio web en construcción... :)
-        </p>
+        </h1>
       </header>
     </div>
   );
