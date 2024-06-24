@@ -1,0 +1,18 @@
+@import "../styles/colors.css";
+
+.section{
+    background-color: var(--background-color);
+}
+
+.box_carousel{
+    background-color: 'lightgray';
+    padding: 0;
+    text-align: 'center'; 
+}
+.container_carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}

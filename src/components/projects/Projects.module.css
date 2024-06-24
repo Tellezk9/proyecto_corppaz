@@ -1,0 +1,88 @@
+@import "../styles/colors.css";
+
+.section {
+    background-color: var(--background-color);
+}
+
+.box {
+    background-color: 'lightgray';
+    padding: 0;
+    text-align: 'center';
+}
+
+.element_text_projects {
+    margin-top: 5%;
+}
+
+.element_container {
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+.container_card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.divisor_card {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.card {
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    width: 45%;
+}
+
+.header_card {
+    height: 50%;
+
+}
+
+.content_card {
+    height: 50%;
+}
+
+.p {
+    text-align: left;
+}
+
+.image_card {}
+
+.image {
+    border-radius: 51px;
+}
+
+.container_button_more {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.button_more {
+    width: max-content;
+    background: var(--primary-color);;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--secundary-text-color);
+    font-family: var(--font-family);
+    font-size: var(--button-text-size);
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 7px;
+}

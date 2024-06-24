@@ -1,0 +1,103 @@
+@import "../styles/colors.css";
+
+.section {
+    background-color: var(--background-color);
+}
+
+.box {
+    background-color: 'lightgray';
+    padding: 0;
+    text-align: 'center';
+}
+
+.element_image_background {
+    background-image: url('../../assets/Testimonios/muchas_personas.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 9%;
+    padding-right: 9%;
+
+}
+
+.container_elements {
+    padding-top: 3%;
+    padding-bottom: 7%;
+}
+
+.container_carousel {
+    margin-top: 4%;
+    height: 400px;
+}
+
+.card {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.header_card {
+    height: 10%;
+}
+
+.content_card {
+    height: 40%;
+}
+
+.image_card {
+    height: 40%;
+}
+
+.image_selector {
+    height: 10%;
+
+}
+
+.h2 {
+    color: var(--secundary-text-color)
+}
+
+.h3 {
+    color: var(--secundary-text-color)
+}
+
+.p {
+    color: var(--secundary-text-color);
+    margin-bottom: 0px;
+}
+
+.image_card {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50%;
+}
+
+.image {
+    border-radius: 100px;
+}
+
+.image_selector {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.button_selector {
+    margin: 1%;
+    height: 20px;
+    width: 20px;
+    background: var(--secundary-color);
+    border-radius: 100px;
+}
+.button_selector:hover{
+    cursor: pointer;
+}
+
+.active {
+    background-color: var(--primary-color);
+}
