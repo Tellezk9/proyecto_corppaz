@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import style from './Testimonials.module.css';
 import { Box } from '@mui/material';
 
@@ -10,7 +10,7 @@ import Img_anciano from '../../assets/Testimonios/anciano.png'
 
 function Testimonials() {
 
-    const Carrouser_testimonials = [
+    const Carrouser_testimonials = useMemo(() => [
         {
             src: Img_madre,
             alt: "Foto madre",
@@ -39,20 +39,16 @@ function Testimonials() {
             profession: "desplazado interno",
             testimony: "“Llegué a Cúcuta con mi familia, buscando refugio de la violencia en nuestro pueblo. CORPPAZ fue nuestro salvavidas. Nos brindaron un lugar seguro para vivir, nos ayudaron a tramitar nuestros documentos y nos dieron herramientas para superar el trauma. Hoy, gracias a su apoyo, tengo un trabajo estable y mis hijos pueden ir a la escuela sin miedo. CORPPAZ nos devolvió la esperanza y nos permitió reconstruir nuestras vidas.”",
         },
-    ]
-    const { src, alt } = Carrouser_testimonials[0];
+    ], [])
     const [imagenActual, setImagenActual] = useState(0);
     const [imagenesCargadas, setImagenesCargadas] = useState(false);
-    const cantidad_images = Carrouser_testimonials?.length;
 
-    const siguienteImagen = () => {
-        setImagenActual(imagenActual === (Carrouser_testimonials.length - 1) ? 0 : imagenActual + 1)
-    }
+    const siguienteImagen = useCallback(() => {
+        setImagenActual(imagenActual => imagenActual === (Carrouser_testimonials.length - 1) ? 0 : imagenActual + 1)
+    }, [Carrouser_testimonials.length]);
+
     const selectImagen = (index) => {
         setImagenActual(index)
-    }
-    const anteriorImagen = () => {
-        setImagenActual(imagenActual === 0 ? cantidad_images - 1 : imagenActual - 1)
     }
 
     useEffect(() => {
@@ -85,11 +81,11 @@ function Testimonials() {
         if (imagenesCargadas) {
             interval = setInterval(() => {
                 siguienteImagen();
-            }, 10000);
+            }, 5000);
         }
 
         return () => clearInterval(interval); // Limpiar el intervalo al desmontar
-    }, [Carrouser_testimonials]); // Dependencia del array de imágenes
+    }, [Carrouser_testimonials, imagenesCargadas, siguienteImagen]); // Dependencia del array de imágenes
 
     return (
         <section className={style.section}>
@@ -108,7 +104,7 @@ function Testimonials() {
                                         {imagenActual === index && (
                                             <div className={style.card}>
                                                 <div className={style.header_card}>
-                                                    <h3 className={style.h3}>{name},{profession}</h3>
+                                                    <h3 className={style.h3}>{name}, {profession}</h3>
                                                 </div>
                                                 <div className={style.content_card}>
                                                     <p className={style.p}>
@@ -116,7 +112,7 @@ function Testimonials() {
                                                     </p>
                                                 </div>
                                                 <div className={style.image_card}>
-                                                    <img src={src} alt={src} className={style.image}></img>
+                                                    <img src={src} alt={alt} className={style.image}></img>
                                                 </div>
                                             </div>
                                         )}
@@ -124,7 +120,7 @@ function Testimonials() {
                                 )
                             })}
                             <div className={style.image_selector}>
-                                {Carrouser_testimonials.map(({ }, index) => {
+                                {Carrouser_testimonials.map((Carrouser_testimonials, index) => {
                                     return (
                                         <>
                                             {

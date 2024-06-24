@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React from 'react';
 import style from './Contact.module.css';
 import { Box } from '@mui/material';
 
@@ -24,13 +24,13 @@ function Contact() {
                             <h4><b>Descubre cómo estamos transformando vidas en nuestras redes sociales</b></h4>
                             <div className={style.social_media}>
                                 <div className={style.social_media_logo_container}>
-                                    <a href='#'><img src={Whatsapp_logo} alt='logo whatsapp' ></img></a>
+                                    <a href='https://www.whatsapp.com' target='_blank' rel="noopener noreferrer"><img src={Whatsapp_logo} alt='logo whatsapp' ></img></a>
                                 </div>
                                 <div className={style.social_media_logo_container}>
-                                    <a href='#'><img src={Facebook_logo} alt='logo instagram' ></img></a>
+                                    <a href='https://www.facebook.com' target='_blank' rel="noopener noreferrer"><img src={Facebook_logo} alt='logo instagram' ></img></a>
                                 </div>
                                 <div className={style.social_media_logo_container}>
-                                    <a href='#'><img src={Instagram_logo} alt='logo instagram'></img></a>
+                                    <a href='https://www.instagram.com' target='_blank' rel="noopener noreferrer"><img src={Instagram_logo} alt='logo instagram'></img></a>
                                 </div>
                             </div>
                         </div>

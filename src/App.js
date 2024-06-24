@@ -1,4 +1,3 @@
-import logo from './assets/logos/LOGO_CORPPAZ-COLOR.png';
 import './App.css';
 
 import Header from './components/header/Header';

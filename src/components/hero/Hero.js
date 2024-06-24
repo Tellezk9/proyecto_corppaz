@@ -1,6 +1,5 @@
-import React, { useState, useEffect, useRef } from "react";
+import React from "react";
 import style from './Hero.module.css';
-import { Box, Container } from '@mui/material';
 
 function Hero() {
 

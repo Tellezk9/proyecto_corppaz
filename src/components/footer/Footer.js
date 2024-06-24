@@ -24,15 +24,15 @@ function Footer() {
                             <div className={style.contact_container}>
                                 <div className={style.social_media}>
                                     <div className={style.social_media_logo_container}>
-                                        <a href='#' role='button'><img src={Whatsapp_logo} alt='logo whatsapp' className={style.social_media_logo}></img></a>
+                                        <a href='https://www.whatsapp.com' target='_blank' rel="noopener noreferrer"><img src={Whatsapp_logo} alt='logo whatsapp' className={style.social_media_logo}></img></a>
                                     </div>
 
                                     <div className={style.social_media_logo_container}>
-                                        <a href='#'><img src={Facebook_logo} alt='logo instagram' className={style.social_media_logo}></img></a>
+                                        <a href='https://www.facebook.com' target='_blank' rel="noopener noreferrer"><img src={Facebook_logo} alt='logo facebook' className={style.social_media_logo}></img></a>
                                     </div>
 
                                     <div className={style.social_media_logo_container}>
-                                        <a href='#'><img src={Instagram_logo} alt='logo instagram' className={style.social_media_logo}></img></a>
+                                        <a href='https://www.instagram.com' target='_blank' rel="noopener noreferrer"><img src={Instagram_logo} alt='logo instagram' className={style.social_media_logo}></img></a>
                                     </div>
                                 </div>
                                 <p className={style.p}>Contacto: +57 302 4431752</p>
