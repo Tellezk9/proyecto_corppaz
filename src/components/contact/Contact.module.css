@@ -1,0 +1,44 @@
+@import "../styles/colors.css";
+
+.section {
+    background-color: var(--background-color);
+}
+
+.box {
+    background-color: 'lightgray';
+    padding: 0;
+    text-align: 'center';
+}
+
+.container {
+    margin-top: 5%;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: 5%;
+}
+
+.container_elements {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.contact_text {}
+
+.p {
+    margin: 1px;
+}
+
+.social_media_container {}
+
+.social_media {}
+
+.social_media_logo_container {
+    margin: 10px;
+    display: inline-block;
+}
+.font_fix{
+    font-family:  'Teko', sans-serif;
+}

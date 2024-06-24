@@ -1,0 +1,85 @@
+@import url('../styles/colors.css');
+
+.section {
+    background-color: var(--background-color);
+}
+
+.elementor_widget_warp {
+    width: 100%;
+}
+
+.elementor_image_background {
+    background-image: url('../../assets/carrucel-1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+}
+.elementor_widget_warp_1{
+    height: 100%;
+}
+.elementor_widget_warp_2{
+    height: 50%;
+}
+.elementor_widget_warp_3{
+    height: 10%;
+}
+.img_banner {
+    width: 100%;
+}
+
+.container_banner {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.container_text {
+    display: flex;
+    text-align: left;
+    margin-left: 10%;
+    width: 50%;
+    flex-direction: column;
+    color: white;
+}
+
+.h1 {
+    margin: 0px;
+    font-size: var(--h1-text-size);
+    font-family: var(--font-family);
+    color: #FFFFFF;
+}
+.h2 {
+    margin: 0px;
+    font-family: var(--font-family);
+    font-size: var(--h2-text-size); 
+    color: #FFFFFF;
+}
+
+.img_carousel {
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.active {
+    opacity: 1;
+}
+
+.container_carousel {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.box_carousel {
+    background-color: 'lightgray';
+    padding: 0;
+    text-align: 'center';
+}
