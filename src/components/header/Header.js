@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 import Logo from '../../assets/logos/LOGO_CORPPAZ-COLOR-recortada-2.png';
-import { Toolbar, Container } from '@mui/material';
+import { Toolbar} from '@mui/material';
 
 function Header() {
   return (
