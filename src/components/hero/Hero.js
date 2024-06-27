@@ -5,6 +5,7 @@ import Header from "../header/Header";
 function Hero() {
 
     return (
+    
         <section className={style.section}>
             <Header></Header>
             <div className={style.container_banner}>
