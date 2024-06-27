@@ -2,6 +2,9 @@
 
 .section {
     background-color: var(--background-color);
+    background-image: url('../../assets/logos/Frame_77.png');
+    background-position: right top;
+    background-repeat: no-repeat;
 }
 
 .box {
@@ -10,49 +13,92 @@
     text-align: 'center';
 }
 
-.element_image_background {
-    background-image: url('../../assets/Nosotros/muchas_personas.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
+.container_elements {
     display: flex;
-    height: 400px;
     flex-direction: column;
-    justify-content: center;
-    padding-left: 9%;
-    padding-right: 9%;
-
-}
-
-.element_text_about_us {
     margin-top: 5%;
     margin-left: 9%;
     margin-right: 9%;
 }
-.element_container_text{
-    height: 80%;
+
+.element_container_text {
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
 }
+
 .element_mision_vision {
     display: flex;
     width: 100%;
 }
 
 .element_text {
-    width: 47%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .element_text_warp {
     width: 6%;
 }
-.h2{
-    color: var(--secundary-text-color);
-    text-shadow: 0px 8px 5px rgba(0, 0, 0, 0.5);
+
+.h1 {
+    color: var(--tertiary-text-color);
 }
-.p{
-    color: var(--secundary-text-color);
+
+.humanitarian_assistance_text {
+    color: var(--quinary-text-color);
+}
+
+.environmental_care_text {
+    color: var(--senary-text-color)
+}
+
+.social_development_text {
+    color: var(--septenary-text-color)
+}
+
+.community_text {
+    color: var(--octonary-text-color)
+}
+
+.h2 {
+    color: var(--secondary-text-color);
+}
+
+.p {
+    color: var(--quaternary-text-color);
     text-align: left;
     margin-bottom: 0px;
+}
+
+.span_title {
+    color: var(--primary-text-color);
+}
+.container_img_up{
+    margin-top: 5%;
+}
+.container_img {
+    width: 20%;
+}
+
+.image {
+    width: 100%;
+}
+
+.card_container {
+    display: flex;
+    flex-direction: row;
+    width: 48%;
+}
+
+.card_text_container {
+    margin-left: 2%;
+    width: 80%;
+}
+
+.card_text_h2 {
+    text-align: left;
+    height: 50%;
+    display: flex;
+    align-items: center;
 }

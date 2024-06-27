@@ -2,33 +2,42 @@
 
 .section {
     background-color: var(--background-color);
+    background-image: url('../../assets/Header/manos_arriba_full.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    height: 700px;
+    flex-direction: column;
 }
 
 .elementor_widget_warp {
     width: 100%;
+    height: 60%;
 }
 
-.elementor_image_background {
-    background-image: url('../../assets/carrucel-1.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-    display: flex;
-    height: 600px;
-    flex-direction: column;
+
+.elementor_widget_warp_2 {
+    height: 25%;
 }
-.elementor_widget_warp_1{
-    height: 100%;
-}
-.elementor_widget_warp_2{
-    height: 50%;
-}
-.elementor_widget_warp_3{
+
+.elementor_widget_warp_3 {
     height: 10%;
 }
+
 .img_banner {
     width: 100%;
+}
+
+.title {
+    margin: 0px;
+    /* color: red; */
+    color: var(--primary-color);
+    font-size: var(--title-text-size);
+    font-family: var(--font-family);
+    text-transform: capitalize;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .container_banner {
@@ -36,13 +45,14 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    height: 100%;
 }
 
 .container_text {
     display: flex;
     text-align: left;
     margin-left: 10%;
-    width: 50%;
+    width: 70%;
     flex-direction: column;
     color: white;
 }
@@ -52,12 +62,15 @@
     font-size: var(--h1-text-size);
     font-family: var(--font-family);
     color: #FFFFFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
+
 .h2 {
     margin: 0px;
     font-family: var(--font-family);
-    font-size: var(--h2-text-size); 
+    font-size: var(--h2-text-size);
     color: #FFFFFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .img_carousel {

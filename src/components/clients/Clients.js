@@ -3,43 +3,47 @@ import { Box } from "@mui/material";
 
 import style from'./Clients.module.css';
 
-import Alcaldia_1 from '../../assets/alcaldias/Alcaldia_1.png';
-import Alcaldia_2 from '../../assets/alcaldias/Alcaldia_2.png';
-import Alcaldia_3 from '../../assets/alcaldias/Alcaldia_3.png';
-import Alcaldia_4 from '../../assets/alcaldias/Alcaldia_4.png';
-import Alcaldia_5 from '../../assets/alcaldias/Alcaldia_5.png';
+import Agricultura from '../../assets/Clients/Agricultura_gris.png';
+import Fidaguria from '../../assets/Clients/fiduagraria_gris.png';
+import Gobernacion_santander from '../../assets/Clients/Santander_logo_gris.png';
+import Alianza_productiva from '../../assets/Clients/Alianzas_gris.png';
+import Presidencia from '../../assets/Clients/presidencia_gris.png';
+import Insumos from '../../assets/Clients/Faia_gris.png';
 
 function Clients() {
-    const Alcaldias = [
+    const Clients_images = [
         {
-            src: Alcaldia_1,
-            alt: "Alcaldia 1"
+            src: Agricultura,
+            alt: "logo_Agricultura"
         },
         {
-            src: Alcaldia_2,
-            alt: "Alcaldia 2"
+            src: Fidaguria,
+            alt: "logo_Fidaguria"
         },
         {
-            src: Alcaldia_3,
-            alt: "Alcaldia 3"
+            src: Gobernacion_santander,
+            alt: "logo_Gob_santander"
         },
         {
-            src: Alcaldia_4,
-            alt: "Alcaldia 4"
+            src: Alianza_productiva,
+            alt: "logo_alianza"
         },
         {
-            src: Alcaldia_5,
-            alt: "Alcaldia 5"
+            src: Presidencia,
+            alt: "logo_presidencia"
+        },
+        {
+            src: Insumos,
+            alt: "logo_insumos"
         }
     ]
-
     return (
         <section>
             <Box sx={style.box_carousel}>
                 <div className={style.container_carousel}>
-                    {Alcaldias.map(({ src, alt }, index) => {
+                    {Clients_images.map(({ src, alt }, index) => {
                         return (
-                            <img src={src} alt={alt} key={index}></img>
+                            <img src={src} alt={alt} key={index} className={style.img}></img>
                         )
                     })}
                 </div>

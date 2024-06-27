@@ -9,12 +9,15 @@
     padding: 0;
     text-align: 'center';
 }
-
 .container {
-    margin-top: 5%;
-    margin-left: 9%;
-    margin-right: 9%;
-    margin-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-bottom: 5%;
+    background-image: url('../../assets/Contact/Corazon.png');
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .container_elements {
@@ -25,15 +28,14 @@
     justify-content: space-between;
 }
 
-.contact_text {}
 
+.h3{
+    font-size: 25px;
+}
 .p {
     margin: 1px;
 }
 
-.social_media_container {}
-
-.social_media {}
 
 .social_media_logo_container {
     margin: 10px;
