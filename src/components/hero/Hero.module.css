@@ -2,19 +2,22 @@
 
 .section {
     background-color: var(--background-color);
-    background-image: url('../../assets/Header/manos_arriba_full.png');
+    background-image: url('../../assets/Header/Fondo_manos_header.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
+    position: relative;
+
     display: flex;
-    height: 700px;
+    height: 832px;
+    width: 100vw;
     flex-direction: column;
 }
 
 .elementor_widget_warp {
     width: 100%;
-    height: 60%;
+    height: 100%;
 }
 
 

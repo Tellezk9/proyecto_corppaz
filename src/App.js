@@ -12,6 +12,7 @@ import Footer from './components/footer/Footer';
 function App() {
   return (
     <div className="App">
+     
       <Hero></Hero>
       <Clients></Clients>
       <Services></Services>

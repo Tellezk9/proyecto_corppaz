@@ -71,7 +71,7 @@ function Projects() {
                         </div>
                         <div className={style.container_button_more}>
                             <div className={style.button_more}>
-                                <a href='https://www.facebook.com' target='_blank' rel="noopener noreferrer" className={style.a}>Conoce más proyecos en redes<img src={Flecha} alt='flecha'></img></a>
+                                <a href='https://www.facebook.com/corpopaz' target='_blank' rel="noopener noreferrer" className={style.a}>Conoce más proyecos en redes<img src={Flecha} alt='flecha'></img></a>
                             </div>
                         </div>
                     </div>
