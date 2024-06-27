@@ -2,82 +2,77 @@ import React from 'react';
 import style from './Projects.module.css';
 import { Box } from '@mui/material';
 
-import Feria from '../../assets/Proyectos/Feria.png';
-import Verduras from '../../assets/Proyectos/verduras.png';
-import Cena from '../../assets/Proyectos/cena.png';
-import Campo from '../../assets/Proyectos/campo.png';
+import Alimentos from '../../assets/Proyectos/entrega_productos.png';
+import Muchas_personas from '../../assets/Proyectos/muchas_personas.png';
+import Hombre from '../../assets/Proyectos/hombre.png';
 import Flecha from '../../assets/Proyectos/flecha.png';
 
 function Projects() {
     return (
-        <section className={style.section}>
+        <section className={style.section} id='projects'>
             <Box sx={style.Box}>
-                <div className={style.element_container}>
-                    <div className={style.element_text_projects}>
-                        <h2>Proyectos</h2>
-                    </div>
-                    <div className={style.container_card}>
-                        <div className={style.divisor_card}>
-                            <div className={style.card}>
-                                <div className={style.header_card}>
-                                    <h3>Jornadas de Inclusión Económica para Pequeños Productores</h3>
-                                </div>
-                                <div className={style.content_card}>
-                                    <p className={style.p}>
-                                        Brinda información y facilita el acceso a programas y beneficios gubernamentales para pequeños productores agrícolas, especialmente en las líneas de café e integral.
-                                    </p>
-                                </div>
-                                <div className={style.image_card}>
-                                    <img src={Campo} alt='imagen Campo' className={style.image}></img>
+                <div className={style.container_programs}>
+                    <div className={style.element_container}>
+                        <div className={style.element_text_projects}>
+                            <h1 className={style.h1}><span className={style.span_title_color}>Nuestros</span> Proyectos</h1>
+                        </div>
+                        <div className={style.container_card}>
+                            <div className={style.divisor_card}>
+                                <div className={style.card}>
+                                    <div className={style.image_card}>
+                                        <img src={Alimentos} alt='img_campo' className={style.image}></img>
+                                    </div>
+                                    <div className={style.container_content_card}>
+                                        <div className={style.header_card}>
+                                            <h3 className={style.h3_title_card_first}>ENTREGA DE 35.771 KITS DE ALIMENTOS CON  DESTINO A POBLACIÓN VULNERABLE MIGRANTE</h3>
+                                        </div>
+                                        <div className={style.content_card}>
+                                            <p className={style.p}>
+                                                Corppaz, en alianza con la Gerencia para la Frontera Nortesantandereana y la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD), lideró una iniciativa de asistencia humanitaria de emergencia para atender las necesidades de la población migrante vulnerable en Norte de Santander durante la vigencia 2020, en el contexto de la Declaratoria de Estado de Emergencia Económica, Social y Ecológica en todo el territorio nacional.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div className={style.card}>
-                                <div className={style.header_card}>
-                                    <h3>Jornadas de Inclusión Económica para Pequeños Productores</h3>
+                            <div className={style.divisor_card}>
+                                <div className={style.card}>
+                                    <div className={style.container_content_card}>
+                                        <div className={style.header_card}>
+                                            <h3 className={style.h3_title_card_second}>FORTALECIMIENTO DE LOS MEDIOS DE VIDA  COLECTIVOS EN LA ZONA RURAL DEL MUNICIPIO  DE SAN JOSÉ DE CÚCUTA DE LA POBLACIÓN  VÍCTIMA DEL CONFLICTO ARMADO</h3>
+                                        </div>
+                                        <div className={style.content_card}>
+                                            <p className={style.p}>
+                                                Transformando la zona rural de Cúcuta en territorio  de Paz y Emprendimiento a través de la puesta en  marcha de Unidades Productivas en Líneas de  Ganadería, Cacao, Mango Tommy, Caña de Azúcar y  Apicultura
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className={style.image_card}>
+                                        <img src={Muchas_personas} alt='img_personas' className={style.image}></img>
+                                    </div>
                                 </div>
-                                <div className={style.content_card}>
-                                    <p className={style.p}>
-                                        Fomenta el espíritu comunitario, preserva las tradiciones navideñas y promueve el bienestar social en las comunidades.
-                                    </p>
-                                </div>
-                                <div className={style.image_card}>
-                                    <img src={Cena} alt='imagen Campo' className={style.image}></img>
+                            </div>
+                            <div className={style.divisor_card}>
+                                <div className={style.card}>
+                                    <div className={style.image_card}>
+                                        <img src={Hombre} alt='imagen Campo' className={style.image}></img>
+                                    </div>
+                                    <div className={style.container_content_card}>
+                                        <div className={style.header_card}>
+                                            <h3 className={style.h3_title_card_first}>MEJORAMIENTO DE LA PRODUCCIÓN AGROPECUARIA EN CORREGIMIENTOS DE CÚCUTA</h3>
+                                        </div>
+                                        <div className={style.content_card}>
+                                            <p className={style.p}>
+                                                Este proyecto impulsó la producción cárnica y láctea en los corregimientos de San Faustino y Guaramito mediante la creación de una asociación de ganaderos, capacitación en buenas prácticas y mejoramiento genético, e implementación de tecnologías como inseminación artificial y bancos de proteínas.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div className={style.divisor_card}>
-                            <div className={style.card}>
-                                <div className={style.header_card}>
-                                    <h3>Jornadas de Inclusión Económica para Pequeños Productores</h3>
-                                </div>
-                                <div className={style.content_card}>
-                                    <p className={style.p}>
-                                        Celebra la cultura campesina, reconoce el trabajo de las personas dedicadas al campo y promueve el desarrollo económico local.
-                                    </p>
-                                </div>
-                                <div className={style.image_card}>
-                                    <img src={Feria} alt='imagen Campo' className={style.image}></img>
-                                </div>
+                        <div className={style.container_button_more}>
+                            <div className={style.button_more}>
+                                <a href='https://www.facebook.com' target='_blank' rel="noopener noreferrer" className={style.a}>Conoce más proyecos en redes<img src={Flecha} alt='flecha'></img></a>
                             </div>
-                            <div className={style.card}>
-                                <div className={style.header_card}>
-                                    <h3>Jornadas de Inclusión Económica para Pequeños Productores</h3>
-                                </div>
-                                <div className={style.content_card}>
-                                    <p className={style.p}>
-                                        Fortalece la seguridad alimentaria en comunidades vulnerables de Cúcuta, empoderando a las familias para cultivar sus propios alimentos en huertas comunitarias sostenibles. A través de capacitación y recursos, se mejora la nutrición y se generan ingresos adicionales
-                                    </p>
-                                </div>
-                                <div className={style.image_card}>
-                                    <img src={Verduras} alt='imagen Campo' className={style.image}></img>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className={style.container_button_more}>
-                        <div className={style.button_more}>
-                            <a href='https://www.facebook.com' target='_blank' rel="noopener noreferrer" className={style.a}>Conoce más proyecos en redes<img src={Flecha} alt='flecha'></img></a>
-
                         </div>
                     </div>
                 </div>
