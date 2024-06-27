@@ -5,36 +5,28 @@ import { Toolbar, Container } from '@mui/material';
 
 function Header() {
   return (
-    <Container>
-
-      <section className='section_header'>
+      <section className='section_header' id='index'>
         <Toolbar>
-          <div className='header_container'>
-            <div className="logo_container">
-              <a href="index.html" className='button' tabIndex={0}>
-                <img src={Logo} alt="Logo de CORPPAZ" />
-              </a>
+            <div className='header_container'>
+              <div className="logo_container">
+                <a href="#index" className='button' tabIndex={0}>
+                  <img src={Logo} alt="Logo de CORPPAZ" />
+                </a>
+              </div>
+              <div className='menu_buttons'>
+                <nav className='nav'>
+                  <ul className='ul'>
+                    <li className='li'><a href="#index" className='button'>Inicio</a></li>
+                    <li className='li'><a href="#services" className='button'>Servicios</a></li>
+                    <li className='li'><a href="#about_us" className='button'>Nosotros</a></li>
+                    <li className='li'><a href="#projects" className='button'>Proyectos</a></li>
+                    <li className='li_final'><a href="#contact" className='button_final'>Conócenos</a></li>
+                  </ul>
+                </nav>
+              </div>
             </div>
-            <div className='menu_buttons'>
-              <nav className='nav'>
-                <ul className='ul'>
-                  <li className='li' tabIndex={0}><a href="index.html" className='button'>Inicio</a></li>
-                  <li className='li' tabIndex={0}><a href="index.html" className='button'>Programas</a></li>
-                  <li className='li' tabIndex={0}><a href="index.html" className='button'>Nosotros</a></li>
-                  <li className='li' tabIndex={0}><a href="index.html" className='button'>Proyectos</a></li>
-                  <li className='li' tabIndex={0}><a href="index.html" className='button'>Conócenos</a></li>
-                </ul>
-              </nav>
-              {/* <Button color="inherit">Inicio</Button>
-              <Button color="inherit">Programas</Button>
-              <Button color="inherit">Nosotros</Button>
-              <Button color="inherit">Proyectos</Button>
-              <Button color="inherit">Conócenos</Button> */}
-            </div>
-          </div>
         </Toolbar>
       </section>
-    </Container>
   );
 }
 

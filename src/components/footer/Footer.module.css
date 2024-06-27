@@ -28,19 +28,26 @@
 .description_text_container{
     width: 60%;
 }
+.logo_corppaz{
+    height: 100px;
+}
 .contact_container{
     width: 35%;
 }
 .p_description{
-    color: var(--secundary-text-color);
+    color: var(--secondary-text-color);
     text-align: left;
 }
 .p{
-    color: var(--secundary-text-color);
+    color: var(--secondary-text-color);
     margin: 1px;
 }
 
 .social_media_logo_container {
     margin: 10px;
     display: inline-block;
+}
+.link_mail{
+    color: var(--secondary-text-color);
+    text-decoration: none;
 }

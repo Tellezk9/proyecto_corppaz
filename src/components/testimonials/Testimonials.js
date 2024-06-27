@@ -92,9 +92,6 @@ function Testimonials() {
             <Box sx={style.box_carousel}>
                 <div className={style.element_image_background}>
                     <div className={style.container_elements}>
-                        <div className={style.element_text_about_us}>
-                            <h2 className={style.h2}>Testimonios</h2>
-                        </div>
 
                         <div className={style.container_carousel}>
 
@@ -135,7 +132,6 @@ function Testimonials() {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </Box>
         </section>
