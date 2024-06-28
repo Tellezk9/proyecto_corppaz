@@ -24,7 +24,7 @@ function Footer() {
                             <div className={style.contact_container}>
                                 <div className={style.social_media}>
                                     <div className={style.social_media_logo_container}>
-                                        <a href='https://wa.me/573137711678?text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20sus%20servicios.' target='_blank' rel="noopener noreferrer"><img src={Whatsapp_logo} alt='logo whatsapp' className={style.social_media_logo}></img></a>
+                                        <a href='https://wa.me/573147711678?text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20sus%20servicios.' target='_blank' rel="noopener noreferrer"><img src={Whatsapp_logo} alt='logo whatsapp' className={style.social_media_logo}></img></a>
                                     </div>
 
                                     <div className={style.social_media_logo_container}>
@@ -35,8 +35,8 @@ function Footer() {
                                         <a href='https://www.instagram.com/corporaciontodosporlapaz/' target='_blank' rel="noopener noreferrer"><img src={Instagram_logo} alt='logo instagram' className={style.social_media_logo}></img></a>
                                     </div>
                                 </div>
-                                <p className={style.p}>Contacto: 314 771 16 78 | 607 528 14 75</p>
-                                <p className={style.p}>Email: <a href="mailto:corpopaz@outlook.com?subject=Solicitud de información&body=Hola,%20me gustaría obtener más información sobre sus servicios." className={style.link_mail}>corpopaz@outlook.com</a></p>
+                                <p className={style.p}>Contacto: 314 771 16 78 | 607 528 14 75 </p>
+                                <p className={style.p}>Email: <a href="mailto:corporacion@corppaz.org?subject=Solicitud de información&body=Hola,%20me gustaría obtener más información sobre sus servicios." className={style.link_mail}>corporacion@corppaz.org</a></p>
                             </div>
                         </div>
                         <p className={style.p}>© {año_actual} Corppaz. Todos los derechos reservados.</p>

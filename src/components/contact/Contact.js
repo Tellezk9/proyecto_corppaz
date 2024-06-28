@@ -14,9 +14,9 @@ function Contact() {
                         <h1>Contactanos</h1>
                         <div className={style.container_elements}>
                             <div className={style.contact_text}>
-                                <p className={style.p}>Teléfono: 58<span class={style.font_fix}>4</span>3204</p>
+                                <p className={style.p}>Teléfono: 246288266</p>
                                 <p className={style.p}>Contacto: +57 314 7711678</p>
-                                <p className={style.p}>Email: fundaciontradein@gmail.com</p>
+                                <p className={style.p}>Email: corporacion@corppaz.org</p>
                             </div>
                             <div className={style.social_media_container}>
                                 <h2 className={style.h2}><b>Descubre cómo estamos transformando vidas en redes sociales</b></h2>
