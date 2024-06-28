@@ -66,3 +66,15 @@
     margin-bottom: 0px;
     margin-top: 10px;
 }
+
+
+@media ((min-width: 1px) and (max-width: 600px)) {
+    .element_img{
+        display: none;
+    }
+    .elements_text{
+        margin-right: 9%;
+        width: 100%;
+    }
+
+}

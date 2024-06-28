@@ -28,7 +28,7 @@ function Services() {
                                     se atienden en cada una de las ejecuciones de los proyectos).
                                 </p>
                                 <p className={style.paragraph}>
-                                    <span className={style.middle_point}>&#183;Proyectos de </span><b> Desarrollo social, rural y agropecuario.</b>
+                                    <span className={style.middle_point}>&#183;</span>Proyectos de <b> Desarrollo social, rural y agropecuario.</b>
                                 </p>
                                 <p className={style.paragraph}>
                                     <b><span className={style.middle_point}>&#183;</span>Consultoría</b> en ejecución y gestión de proyectos

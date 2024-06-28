@@ -35,7 +35,7 @@ function Footer() {
                                         <a href='https://www.instagram.com/corporaciontodosporlapaz/' target='_blank' rel="noopener noreferrer"><img src={Instagram_logo} alt='logo instagram' className={style.social_media_logo}></img></a>
                                     </div>
                                 </div>
-                                <p className={style.p}>Contacto: 528 14 75 |<br></br> 313 771 16 78 | 315 395 74 27</p>
+                                <p className={style.p}>Contacto: 314 771 16 78 | 607 528 14 75</p>
                                 <p className={style.p}>Email: <a href="mailto:corpopaz@outlook.com?subject=Solicitud de información&body=Hola,%20me gustaría obtener más información sobre sus servicios." className={style.link_mail}>corpopaz@outlook.com</a></p>
                             </div>
                         </div>

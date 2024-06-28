@@ -74,9 +74,11 @@
 .span_title {
     color: var(--primary-text-color);
 }
-.container_img_up{
+
+.container_img_up {
     margin-top: 5%;
 }
+
 .container_img {
     width: 20%;
 }
@@ -101,4 +103,39 @@
     height: 50%;
     display: flex;
     align-items: center;
+}
+
+@media (max-width:768px) {
+    .p {
+        margin-top: 0px;
+    }
+}
+
+/* Tableta */
+@media (min-width: 300px) and (max-width: 726px) {
+    .element_text {
+        flex-direction: column;
+    }
+
+    .card_container {
+        width: 100%;
+    }
+
+    .card_text_h2 {
+        height: auto;
+        justify-content: center;
+    }
+
+    .card_text_container {
+        margin-left: 2%;
+        width: 85%;
+    }
+
+    .container_img {
+        width: 15%;
+    }
+
+    .element_text_warp_cards {
+        height: 25px;
+    }
 }
