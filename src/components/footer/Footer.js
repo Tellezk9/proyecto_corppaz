@@ -42,6 +42,9 @@ function Footer() {
                         <p className={style.p}>© {año_actual} Corppaz. Todos los derechos reservados.</p>
                     </div>
                 </div>
+                    <div className={style.whatsapp_button_fixed}>
+                    <a href='https://www.instagram.com/corporaciontodosporlapaz/' target='_blank' rel="noopener noreferrer" className={style.whatsapp_button_a}><img src={Whatsapp_logo} alt='logo instagram' className={style.whatsapp_button}></img></a>
+                    </div>
             </Box>
         </section>
     )
