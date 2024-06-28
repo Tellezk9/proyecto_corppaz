@@ -9,7 +9,8 @@
     padding: 0;
     text-align: 'center';
 }
-.background{
+
+.background {
     background-color: var(--primary-color);
 }
 
@@ -19,26 +20,32 @@
     margin-right: 9%;
     padding-bottom: 3%;
 }
-.elements{
+
+.elements {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-.description_text_container{
+
+.description_text_container {
     width: 60%;
 }
-.logo_corppaz{
+
+.logo_corppaz {
     height: 100px;
 }
-.contact_container{
+
+.contact_container {
     width: 35%;
 }
-.p_description{
+
+.p_description {
     color: var(--secondary-text-color);
     text-align: left;
 }
-.p{
+
+.p {
     color: var(--secondary-text-color);
     margin: 1px;
 }
@@ -47,7 +54,39 @@
     margin: 10px;
     display: inline-block;
 }
-.link_mail{
+
+.link_mail {
     color: var(--secondary-text-color);
     text-decoration: none;
+}
+
+@media ((min-width: 470px) and (max-width: 600px)) {
+    .elements {
+        flex-direction: column;
+    }
+
+    .description_text_container {
+        width: 100%;
+    }
+
+    .contact_container {
+        width: 100%;
+    }
+}
+
+@media ((min-width: 1px) and (max-width: 469px)) {
+    .elements {
+        flex-direction: column;
+    }
+
+    .description_text_container {
+        width: 100%;
+    }
+
+    .contact_container {
+        width: 100%;
+    }
+    .logo_corppaz{
+        height: 50px;
+    }
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import { Box } from "@mui/material";
 
-import style from'./Clients.module.css';
+import style from './Clients.module.css';
 
 import Agricultura from '../../assets/Clients/Agricultura_gris.png';
 import Fidaguria from '../../assets/Clients/fiduagraria_gris.png';
@@ -40,12 +40,17 @@ function Clients() {
     return (
         <section>
             <Box sx={style.box_carousel}>
-                <div className={style.container_carousel}>
-                    {Clients_images.map(({ src, alt }, index) => {
-                        return (
-                            <img src={src} alt={alt} key={index} className={style.img}></img>
-                        )
-                    })}
+                <div class={style.carousel}>
+                    <div className={style.container_carousel}>
+                        <div class={style.carousel_inner}>
+                            {Clients_images.map(({ src, alt }, index) => {
+                                return (
+                            <div class={style.carousel_item}><img src={src} alt={alt} key={index} className={style.img}></img></div>
+                                   
+                                )
+                            })}
+                        </div>
+                    </div>
                 </div>
             </Box>
         </section>

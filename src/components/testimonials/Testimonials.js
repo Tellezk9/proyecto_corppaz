@@ -2,42 +2,31 @@ import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import style from './Testimonials.module.css';
 import { Box } from '@mui/material';
 
-import Img_madre from '../../assets/Testimonios/madre.png'
-import Img_anciana from '../../assets/Testimonios/anciana.png'
-import Img_emprendedor from '../../assets/Testimonios/emprendedor.png'
-import Img_anciano from '../../assets/Testimonios/anciano.png'
+import Img_regalos from '../../assets/Testimonios/regalos.png'
+import Img_raza from '../../assets/Testimonios/dia_de_la_raza.png'
+import Img_arte from '../../assets/Testimonios/arte.png'
 
 
 function Testimonials() {
 
     const Carrouser_testimonials = useMemo(() => [
         {
-            src: Img_madre,
-            alt: "Foto madre",
-            name: "Ana María Pérez",
-            profession: "madre cabeza de familia",
-            testimony: "“Gracias a CORPPAZ, pude superar el trauma del desplazamiento y brindar un futuro mejor a mis hijos. Sus programas de apoyo psicosocial y capacitación laboral me dieron las herramientas para salir adelante y emprender mi propio negocio.”",
+            src: Img_arte,
+            alt: "Foto Jornada_artistica",
+            title:"Arte y cultura para el Día del Niño",
+            description: "“CORPPAZ realizó Jornadas Artísticas y Expresiones Culturales para los niños y niñas del Municipio de Los Patios - Norte de Santander, en el marco de la celebración del día del niño vigencia 2019.”",
         },
         {
-            src: Img_anciana,
-            alt: "Foto anciana",
-            name: "Doña Carmen",
-            profession: "líder comunitaria del barrio La Esperanza",
-            testimony: "“CORPPAZ ha sido un verdadero ángel para nuestra comunidad. Gracias a sus talleres de agricultura urbana, ahora tenemos una hermosa huerta comunitaria que nos provee de alimentos frescos y saludables. Además, hemos aprendido a trabajar juntos y a apoyarnos mutuamente, fortaleciendo nuestros lazos como vecinos.”",
+            src: Img_raza,
+            alt: "Foto dia_raza",
+            title:"Celebrando el Día de la Raza con Motilón Bari",
+            description: "“Tenemos una historia en la que la unión de muchas culturas y la diversidad son las protagonistas. Juntos construimos un mundo donde somos socialmente iguales, humanamente diferentes y totalmente libres. Conmemoramos el Dia de la Raza indígena con comunidad Motilón Bari del municipio de Tibú.”",
         },
         {
-            src: Img_emprendedor,
-            alt: "Foto emprendedor",
-            name: "Luis Fernando",
-            profession: "joven emprendedor",
-            testimony: "“Después de años de incertidumbre y dificultades, CORPPAZ me brindó la oportunidad de capacitarme en carpintería y emprender mi propio negocio. Ahora tengo un taller donde fabrico muebles y puedo sostener a mi familia con dignidad. Estoy muy agradecido por su apoyo y confianza en mi potencial.”",
-        },
-        {
-            src: Img_anciano,
-            alt: "Foto anciano",
-            name: "Juan Carlos",
-            profession: "desplazado interno",
-            testimony: "“Llegué a Cúcuta con mi familia, buscando refugio de la violencia en nuestro pueblo. CORPPAZ fue nuestro salvavidas. Nos brindaron un lugar seguro para vivir, nos ayudaron a tramitar nuestros documentos y nos dieron herramientas para superar el trauma. Hoy, gracias a su apoyo, tengo un trabajo estable y mis hijos pueden ir a la escuela sin miedo. CORPPAZ nos devolvió la esperanza y nos permitió reconstruir nuestras vidas.”",
+            src: Img_regalos,
+            alt: "Foto regalos",
+            title:" Alegría y regalos para niños vulnerables",
+            description: "“CORPPAZ realizó Jornada de Entrega de regalos a niños poblacion vulnerable Cucuta, Villa del Rosario y Capitanejo!! Porque en el Servicio está la verdadera satisfacción del ser humano ”",
         },
     ], [])
     const [imagenActual, setImagenActual] = useState(0);
@@ -81,7 +70,7 @@ function Testimonials() {
         if (imagenesCargadas) {
             interval = setInterval(() => {
                 siguienteImagen();
-            }, 5000);
+            }, 100000);
         }
 
         return () => clearInterval(interval); // Limpiar el intervalo al desmontar
@@ -95,17 +84,17 @@ function Testimonials() {
 
                         <div className={style.container_carousel}>
 
-                            {Carrouser_testimonials.map(({ src, alt, name, profession, testimony }, index) => {
+                            {Carrouser_testimonials.map(({ src, alt, title, description }, index) => {
                                 return (
                                     <>
                                         {imagenActual === index && (
                                             <div className={style.card}>
                                                 <div className={style.header_card}>
-                                                    <h3 className={style.h3}>{name}, {profession}</h3>
+                                                    <h3 className={style.h3}>{title}</h3>
                                                 </div>
                                                 <div className={style.content_card}>
                                                     <p className={style.p}>
-                                                        {testimony}
+                                                        {description}
                                                     </p>
                                                 </div>
                                                 <div className={style.image_card}>

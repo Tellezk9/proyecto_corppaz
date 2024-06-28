@@ -35,7 +35,7 @@ function Projects() {
                                 </div>
                             </div>
                             <div className={style.divisor_card}>
-                                <div className={style.card}>
+                                <div className={style.card_normal}>
                                     <div className={style.container_content_card}>
                                         <div className={style.header_card}>
                                             <h3 className={style.h3_title_card_second}>FORTALECIMIENTO DE LOS MEDIOS DE VIDA  COLECTIVOS EN LA ZONA RURAL DEL MUNICIPIO  DE SAN JOSÉ DE CÚCUTA DE LA POBLACIÓN  VÍCTIMA DEL CONFLICTO ARMADO</h3>
@@ -50,6 +50,25 @@ function Projects() {
                                         <img src={Muchas_personas} alt='img_personas' className={style.image}></img>
                                     </div>
                                 </div>
+                                {/* formato mobile */}
+                                <div className={style.card_reduced}>
+                                    <div className={style.image_card}>
+                                        <img src={Muchas_personas} alt='img_personas' className={style.image}></img>
+                                    </div>
+                                    <div className={style.container_content_card}>
+                                        <div className={style.header_card}>
+                                            <h3 className={style.h3_title_card_second}>FORTALECIMIENTO DE LOS MEDIOS DE VIDA  COLECTIVOS EN LA ZONA RURAL DEL MUNICIPIO  DE SAN JOSÉ DE CÚCUTA DE LA POBLACIÓN  VÍCTIMA DEL CONFLICTO ARMADO</h3>
+                                        </div>
+                                        <div className={style.content_card}>
+                                            <p className={style.p}>
+                                                Transformando la zona rural de Cúcuta en territorio  de Paz y Emprendimiento a través de la puesta en  marcha de Unidades Productivas en Líneas de  Ganadería, Cacao, Mango Tommy, Caña de Azúcar y  Apicultura
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                {/* Fin formato mobile */}
+                            </div>
+                            <div className={style.divisor_card_reduced}>
                             </div>
                             <div className={style.divisor_card}>
                                 <div className={style.card}>
@@ -71,7 +90,7 @@ function Projects() {
                         </div>
                         <div className={style.container_button_more}>
                             <div className={style.button_more}>
-                                <a href='https://www.facebook.com/corpopaz' target='_blank' rel="noopener noreferrer" className={style.a}>Conoce más proyecos en redes<img src={Flecha} alt='flecha'></img></a>
+                                <a href='https://www.facebook.com/corpopaz' target='_blank' rel="noopener noreferrer" className={style.a}>Conoce más proyectos en redes<img src={Flecha} alt='flecha'></img></a>
                             </div>
                         </div>
                     </div>

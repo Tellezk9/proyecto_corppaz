@@ -1,17 +1,98 @@
 @import "../styles/colors.css";
 
-.section{
+.section {
     background-color: var(--background-color);
 }
 
-.box_carousel{
+.box_carousel {
     background-color: 'lightgray';
     padding: 0;
-    text-align: 'center'; 
+    text-align: 'center';
 }
-.container_carousel{
+
+.container_carousel {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.img {
+    height: 100%;
+}
+
+.carousel {
+    width: 100vw;
+    /* Ancho del carrusel */
+    overflow: hidden;
+    /* Oculta el contenido que se desborda */
+}
+
+.carousel_inner {
+    display: flex;
+    gap: 40%;
+    animation: scroll 10s linear infinite;
+    /* Animación de desplazamiento */
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+        /* Espera al inicio */
+    }
+
+    5% {
+        /* Comienza a desplazarse suavemente */
+        transform: translateX(0);
+    }
+
+    40% {
+        /* Llega al final del desplazamiento */
+        transform: translateX(-50%);
+    }
+
+    60% {
+        /* Espera al final */
+        transform: translateX(-50%);
+    }
+
+    95% {
+        /* Comienza a regresar suavemente */
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(0);
+        /* Vuelve a la posición inicial */
+    }
+}
+
+@media (min-width: 300px) and (max-width: 538px) {
+
+    .carousel_inner {
+        gap: 0px
+    }
+
+    .img {
+        height: 50%;
+    }
+}
+
+@media (min-width: 539px) and (max-width: 1023px) {
+    .carousel_inner {
+        gap: 10%
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .carousel_inner {
+        gap: 20%
+    }
+}
+@media (min-width:1441px) {
+    .carousel_inner {
+        animation: scroll 0s linear infinite;
+    }
+    
 }

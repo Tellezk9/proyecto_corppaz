@@ -1,0 +1,247 @@
+@import "../styles/colors.css";
+
+.section_header {
+    position: absolute;
+    width: 100%;
+}
+
+.toolbar {
+    padding: 0;
+}
+
+.header {
+    background-color: var(--test-color);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.container_carousel {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+.header_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo_container {
+    margin: 1rem 0rem 0 3rem;
+}
+
+.image_container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 270px;
+    position: relative;
+}
+
+.image_header {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60%;
+}
+
+.menu_buttons {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 10;
+    margin: 1rem 3rem 0 0rem;
+}
+
+.button {
+    text-decoration: none;
+    font-size: var(--button-text-size);
+    font-family: var(--font-family);
+    color: var(--quinary-text-color);
+}
+
+.button:hover {
+    color: var(--secondary-color);
+}
+
+.nav {
+    width: 100%;
+    height: 100%;
+}
+
+.ul {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0px;
+    align-items: center;
+}
+
+.li {
+    height: 60%;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.li:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.li_final {
+    background: var(--quinary-text-color);
+    height: 60%;
+    width: 25%;
+    border-radius: 50px;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: background-color 0.5s ease 0.2s;
+}
+
+.li_final:hover {
+    background: var(--secondary-color);
+}
+
+.button_final {
+    text-decoration: none;
+    font-size: var(--button-text-size);
+    font-family: var(--font-family);
+    color: var(--primary-text-color);
+    display: grid;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+
+
+/* Responsive */
+.menu_buttons_reduced {
+    display: none;
+}
+
+.basic-button {
+    display: none;
+    background-color: red;
+}
+
+@media ((min-width: 1170px) and (max-width: 1440px)) {
+    .image_header {
+        width: 70%;
+    }
+
+    .menu_buttons {
+        width: 65%;
+    }
+}
+
+@media ((min-width: 921px) and (max-width: 1169px)) {
+
+    .image_header {
+        width: 93%;
+    }
+
+    .menu_buttons {
+        width: 85%;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 920px) {
+    .image_header {
+        width: 100%;
+    }
+
+    .menu_buttons {
+        width: 94%;
+    }
+}
+@media (max-width:425px) {
+    .logo{
+        height: 40px;
+    }    
+}
+
+@media (min-width: 1px) and (max-width: 799px) {
+    .nav {
+        display: none;
+    }
+
+    .header_container {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+
+    .image_container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .image_header {
+        display: none;
+        width: 100%;
+    }
+
+    .menu_buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+        justify-content: flex-end;
+    }
+
+    .menu_buttons_reduced {
+        display: block;
+        display: flex;
+        justify-content: center;
+        border-radius: 25%;
+    }
+
+    .menu_reduced {
+        position: 'fixed';
+        width: 100vw;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 'auto';
+        box-sizing: 'border-box';
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+        background: var(--primary-color);
+    }
+
+    .menu_reduced_items {
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button {
+        color: var(--secondary-color);
+    }
+
+    .button_final {
+        color: var(--secondary-color);
+    }
+}

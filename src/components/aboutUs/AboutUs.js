@@ -34,6 +34,7 @@ function AboutUs() {
                                     </div>
                                 </div>
                             </div>
+                        <div className={style.element_text_warp_cards}></div>
                             <div className={style.card_container}>
 
                                 <div className={`${style.container_img} ${style.container_img_up}`}>
@@ -69,6 +70,7 @@ function AboutUs() {
                                     </div>
                                 </div>
                             </div>
+                            <div className={style.element_text_warp_cards}></div>
 
                             <div className={style.card_container}>
                                 <div className={style.container_img}>
