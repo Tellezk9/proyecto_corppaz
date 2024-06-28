@@ -70,7 +70,7 @@ function Testimonials() {
         if (imagenesCargadas) {
             interval = setInterval(() => {
                 siguienteImagen();
-            }, 100000);
+            }, 5000);
         }
 
         return () => clearInterval(interval); // Limpiar el intervalo al desmontar
