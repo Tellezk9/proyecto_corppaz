@@ -60,11 +60,35 @@
     text-decoration: none;
 }
 
+.whatsapp_button_fixed {
+    bottom: 20px;
+    position: fixed;
+    right: 20px;
+    z-index: 10;
+}
+
+.whatsapp_button {
+    height: 95%;
+    width: 75%;
+}
+.whatsapp_button_a{
+    height: 100px;
+    width: 100px;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    background: #25d366;
+    line-height: 50px;
+}
+
 @media ((min-width: 470px) and (max-width: 600px)) {
     .elements {
         flex-direction: column;
     }
-
+    .whatsapp_button_a{
+        height: 75px;
+        width: 75px;
+    }
     .description_text_container {
         width: 100%;
     }
@@ -79,6 +103,10 @@
         flex-direction: column;
     }
 
+    .whatsapp_button_a{
+        height: 65px;
+        width: 65px;
+    }
     .description_text_container {
         width: 100%;
     }
@@ -86,7 +114,8 @@
     .contact_container {
         width: 100%;
     }
-    .logo_corppaz{
+
+    .logo_corppaz {
         height: 50px;
     }
 }
