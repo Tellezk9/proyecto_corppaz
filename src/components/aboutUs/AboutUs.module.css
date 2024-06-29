@@ -123,7 +123,7 @@
 
     .card_text_h2 {
         height: auto;
-        justify-content: center;
+        /* justify-content: center; */
     }
 
     .card_text_container {
