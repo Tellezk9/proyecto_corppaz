@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import Button from '@mui/material/Button';
 import Popper from '@mui/material/Popper';
@@ -21,6 +21,21 @@ function Header() {
   const handleClose = () => {
     setAnchorEl(null);
   };
+
+  useEffect(() => {
+    const handleResize = () => {
+        if (window.innerWidth >= 800 && open) { // Verifica si está abierto
+            handleClose(); 
+        }
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+        window.removeEventListener('resize', handleResize);
+    };
+}, [open]); 
+
   return (
     <section className={style_header.section_header} id='index'>
       <div className={style_header.header_container}>
