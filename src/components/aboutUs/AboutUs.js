@@ -29,12 +29,12 @@ function AboutUs() {
                                     </div>
                                     <div>
                                         <p className={style.p}>
-                                            Entrega inmediata de suministros esenciales (alimentos, agua, refugio) a poblaciones afectadas por crisis y desastres naturales.
+                                            Entrega inmediata de suministros esenciales (alimentos, agua, refugio) a poblaciones vulnerables, incluyendo migrantes, en situaciones de crisis y desastres.
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                        <div className={style.element_text_warp_cards}></div>
+                            <div className={style.element_text_warp_cards}></div>
                             <div className={style.card_container}>
 
                                 <div className={`${style.container_img} ${style.container_img_up}`}>
@@ -46,7 +46,7 @@ function AboutUs() {
                                     </div>
                                     <div>
                                         <p className={style.p}>
-                                            Implementación de proyectos sostenibles para mejorar la productividad agrícola, conservar los recursos naturales y promover prácticas respetuosas con el medio ambiente
+                                            Implementación de proyectos que fortalezcan la producción agropecuaria, mejoren los medios de vida de las comunidades rurales y promuevan prácticas agrícolas sostenibles.
                                         </p>
                                     </div>
                                 </div>
@@ -65,7 +65,7 @@ function AboutUs() {
                                     </div>
                                     <div>
                                         <p className={style.p}>
-                                            Diseño y ejecución de programas que fomenten la inclusión social, el empoderamiento comunitario y el acceso a servicios básicos como educación, salud y vivienda.
+                                            Diseño e implementación de programas que fomenten la inclusión social, la reconciliación y el desarrollo de capacidades en comunidades afectadas por el conflicto armado y la violencia.
                                         </p>
                                     </div>
                                 </div>
@@ -82,7 +82,7 @@ function AboutUs() {
                                     </div>
                                     <div>
                                         <p className={style.p}>
-                                            Entrega inmediata de suministros esenciales (alimentos, agua, refugio) a poblaciones afectadas por crisis y desastres naturales.
+                                            Empoderamiento de las comunidades locales a través de la formación en asociatividad, emprendimiento y desarrollo de proyectos productivos que impulsen la economía local y mejoren la calidad de vida.
                                         </p>
                                     </div>
                                 </div>
