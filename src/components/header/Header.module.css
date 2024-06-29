@@ -238,6 +238,7 @@
     }
 
     .button {
+        width: 100%;
         color: var(--secondary-color);
     }
 
