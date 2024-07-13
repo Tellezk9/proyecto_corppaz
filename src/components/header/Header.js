@@ -24,24 +24,24 @@ function Header() {
 
   useEffect(() => {
     const handleResize = () => {
-        if (window.innerWidth >= 800 && open) { // Verifica si está abierto
-            handleClose(); 
-        }
+      if (window.innerWidth >= 800 && open) { // Verifica si está abierto
+        handleClose();
+      }
     };
 
     window.addEventListener('resize', handleResize);
 
     return () => {
-        window.removeEventListener('resize', handleResize);
+      window.removeEventListener('resize', handleResize);
     };
-}, [open]); 
+  }, [open]);
 
   return (
     <section className={style_header.section_header} id='index'>
       <div className={style_header.header_container}>
         <div className={style_header.logo_container}>
           <a href="#index" className={style_header.button} tabIndex={0}>
-            <img src={Logo} alt="Logo de CORPPAZ" className={style_header.logo}/>
+            <img src={Logo} alt="Logo de CORPPAZ" className={style_header.logo} />
           </a>
         </div>
         <div className={style_header.image_container}>
@@ -63,16 +63,30 @@ function Header() {
                   <MenuItem onClick={handleClose} className={style_header.menu_reduced_items}><a href="#services" className={style_header.button}>Servicios</a></MenuItem>
                   <MenuItem onClick={handleClose} className={style_header.menu_reduced_items}><a href="#about_us" className={style_header.button}>Nosotros</a></MenuItem>
                   <MenuItem onClick={handleClose} className={style_header.menu_reduced_items}><a href="#projects" className={style_header.button}>Proyectos</a></MenuItem>
+                  <MenuItem onClick={handleClose} className={style_header.menu_reduced_items}><a href="#projects" className={style_header.button}>Programa Social</a></MenuItem>
                   <MenuItem onClick={handleClose} className={style_header.menu_reduced_items}><a href="#contact" className={style_header.button_final}>Contactanos</a></MenuItem>
                 </MenuList>
               </Popper>
             </div>
+            {/* <div>
+              <Popper open={true} anchorEl={anchorEl} >
+                <MenuList className={style_header.menu_proyects}>
+                  <MenuItem onClick={handleClose} className={style_header.menu_proyects_items}><a href="#index" className={style_header.button_proyects}>Nuestros Proyectos</a></MenuItem>
+                  <MenuItem onClick={handleClose} className={style_header.menu_proyects_items}><a href="#services" className={style_header.button_proyects}>Nuestro Programa Social</a></MenuItem>
+                </MenuList>
+              </Popper>
+            </div> */}
             <nav className={style_header.nav}>
               <ul className={style_header.ul}>
                 <li className={style_header.li}><a href="#index" className={style_header.button}>Inicio</a></li>
                 <li className={style_header.li}><a href="#services" className={style_header.button}>Servicios</a></li>
                 <li className={style_header.li}><a href="#about_us" className={style_header.button}>Nosotros</a></li>
-                <li className={style_header.li}><a href="#projects" className={style_header.button}>Proyectos</a></li>
+                <li className={`${style_header.li} ${style_header.menu_dropdown}`}><a href="#projects" className={style_header.button}>Proyectos</a>
+                  <ul className={style_header.ul_menu_proyects}>
+                    <li className={style_header.li_item_proyects}><a href="#projects" className={style_header.button_proyects}>Nuestros Proyectos</a></li>
+                    <li className={style_header.li_item_proyects}><a href="#projects" className={style_header.button_proyects}>Nuestro Programa Social</a></li>
+                  </ul>
+                </li>
                 <li className={style_header.li_final}><a href="#contact" className={style_header.button_final}>Contactanos</a></li>
               </ul>
             </nav>
