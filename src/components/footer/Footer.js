@@ -36,7 +36,7 @@ function Footer() {
                                     </div>
                                 </div>
                                 <p className={style.p}>Contacto: 607 528 14 75 | 314 771 16 78 </p>
-                                <p className={style.p}>Email: <a href="mailto:corporacion@corppaz.org?subject=Solicitud de información&body=Hola,%20me gustaría obtener más información sobre sus servicios." className={style.link_mail}>corporacion@corppaz.org</a></p>
+                                <p className={style.p}>Email: <a href="mailto:contactodirecto@corppaz.org?subject=Solicitud de información&body=Hola,%20me gustaría obtener más información sobre sus servicios." className={style.link_mail}>contactodirecto@corppaz.org</a></p>
                             </div>
                         </div>
                         <p className={style.p}>© {año_actual} Corppaz. Todos los derechos reservados.</p>

@@ -1,12 +1,17 @@
 import React from "react";
 import style from './Hero.module.css';
 import Header from "../header/Header";
+import { useLocation } from "react-router-dom";
+
 
 function Hero() {
+    
+    const location = useLocation();
+    const isProgramPage = location.pathname === '/programa-social'
 
     return (
     
-        <section className={style.section}>
+        <section className={`${isProgramPage ? style.section_program : style.section}`}>
             <Header></Header>
             <div className={style.container_banner}>
                 <div className={style.elementor_widget_warp}>

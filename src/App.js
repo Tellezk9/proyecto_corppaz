@@ -1,27 +1,18 @@
 import './App.css';
-
-import Hero from './components/hero/Hero'
-import Clients from './components/clients/Clients';
-import Services from './components/services/Services';
-import AboutUs from './components/aboutUs/AboutUs';
-import Projects from './components/projects/Projects';
-import Testimonials from './components/testimonials/Testimonials';
-import Contact from './components/contact/Contact';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import SocialProgramPage from './pages/SocialProgramPage';
 import Footer from './components/footer/Footer';
 
 function App() {
   return (
-    <div className="App">
-     
-      <Hero></Hero>
-      <Clients></Clients>
-      <Services></Services>
-      <AboutUs></AboutUs>
-      <Projects></Projects>
-      <Testimonials></Testimonials>
-      <Contact></Contact>
-      <Footer></Footer>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/programa-social' element={<SocialProgramPage />} />
+      </Routes>
+      <Footer/>
+    </BrowserRouter>
   );
 }
 

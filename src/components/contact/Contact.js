@@ -16,7 +16,7 @@ function Contact() {
                         <div className={style.contact_text}>
                             <p className={style.p}>Telefono: 607 528 14 75</p>
                             <p className={style.p}>Contacto: 314 771 16 78</p>
-                            <p className={style.p}>Email: corporacion@corppaz.org</p>
+                            <p className={style.p}>Email: contactodirecto@corppaz.org</p>
                         </div>
                         <div className={style.social_media_container}>
                             <h2 className={style.h2}><b>Descubre cómo estamos transformando vidas en redes sociales</b></h2>
