@@ -81,7 +81,7 @@
     line-height: 50px;
 }
 
-@media ((min-width: 470px) and (max-width: 600px)) {
+@media ((min-width: 470px) and (max-width: 800px)) {
     .elements {
         flex-direction: column;
     }

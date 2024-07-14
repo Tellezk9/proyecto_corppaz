@@ -1,0 +1,41 @@
+@import "../styles/colors.css";
+
+.section {
+    background-color: var(--background-color);
+    background-image: url('../../assets/logos/Frame_77.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.box {
+    background-color: 'lightgray';
+    padding: 0;
+    text-align: 'center';
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container {
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+.p {
+    text-align: justify;
+    margin-bottom: 0px;
+}
+
+.lu {
+    text-align: left;
+}
+
+.a {
+    font-size: large;
+}
+
+@media (max-width:375px) {
+    .h1{
+        font-size: 40px;
+    }
+}
