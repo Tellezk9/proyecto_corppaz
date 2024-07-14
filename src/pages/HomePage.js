@@ -5,7 +5,6 @@ import AboutUs from '../components/aboutUs/AboutUs';
 import Projects from '../components/projects/Projects';
 import Testimonials from '../components/testimonials/Testimonials';
 import Contact from '../components/contact/Contact';
-import Footer from '../components/footer/Footer';
 
 function HomePage() {
     return (
