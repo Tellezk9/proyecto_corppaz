@@ -19,7 +19,7 @@ function Footer() {
                         <div className={style.elements}>
                             <div className={style.description_text_container}>
                                 <img src={Logo_corppaz} alt='logo' className={style.logo_corppaz}></img>
-                                <p className={style.p_description}>CORPPAZ es una organización sin ánimo de lucro comprometida con la transformación social y el desarrollo sostenible en Cúcuta y la región. A través de proyectos innovadores en áreas sociales, económicas, agrícolas y de infraestructura, empoderamos a las comunidades más vulnerables y promovemos un futuro más equitativo y próspero para todos.</p>
+                                <p className={style.p_description}>CORPPAZ es una organización sin ánimo de lucro comprometida con la transformación social y el desarrollo sostenible en Colombia. A través de proyectos innovadores en áreas sociales, económicas, agrícolas y de infraestructura, empoderamos a las comunidades más vulnerables y promovemos un futuro más equitativo y próspero para todos.</p>
                             </div>
                             <div className={style.contact_container}>
                                 <div className={style.social_media}>
