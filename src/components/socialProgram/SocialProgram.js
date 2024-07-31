@@ -15,6 +15,7 @@ import Estados_financieros from '../../assets/SocialProgram/ESTADOS_FINANCIEROS_
 import Existencia_corppaz from '../../assets/SocialProgram/EXISTENCIA_CORPAZZ.pdf';
 import Renta_corppaz from '../../assets/SocialProgram/RENTA_CORPAZ_2023.pdf';
 import Estatutos_corppaz from '../../assets/SocialProgram/ESTATUTOS_CORPPAZ.pdf';
+import Informe_gestion from '../../assets/SocialProgram/INFORME_DE_GESTION_CORPPAZ_2023_RESPONSABILIDAD_SOCIAL.pdf';
 import { Box } from '@mui/material';
 
 function SocialProgram() {
@@ -81,7 +82,7 @@ function SocialProgram() {
                         <AccordionDetails>
                             <ul className={style.lu}>
                                 <li>
-                                    <p className={style.p}>Certificado de Cumplimiento: Certificado de cumplimiento de requisitos numeral 13 de CORPPAZ. 
+                                    <p className={style.p}>Certificado de Cumplimiento: Certificado de cumplimiento de requisitos numeral 13 de CORPPAZ.
                                         <a href={Certificado_cumplimiento} download className={style.a}>(Descargar PDF)</a>
                                     </p>
                                 </li>
@@ -114,6 +115,11 @@ function SocialProgram() {
                                 <li>
                                     <p className={style.p}>Existencia CORPPAZ: Documento que certifica la existencia legal de CORPPAZ.
                                         <a href={Existencia_corppaz} download className={style.a}>(Descargar PDF)</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p className={style.p}>Informe de Gestión CORPPAZ 2023: Responsabilidad Social.
+                                        <a href={Informe_gestion} download className={style.a}>(Descargar PDF)</a>
                                     </p>
                                 </li>
                             </ul>
