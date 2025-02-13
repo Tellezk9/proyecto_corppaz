@@ -43,7 +43,7 @@ function Footer() {
                     </div>
                 </div>
                     <div className={style.whatsapp_button_fixed}>
-                    <a href='https://www.instagram.com/corporaciontodosporlapaz/' target='_blank' rel="noopener noreferrer" className={style.whatsapp_button_a}><img src={Whatsapp_logo} alt='logo instagram' className={style.whatsapp_button}></img></a>
+                    <a href='https://wa.me/573147711678?text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20sus%20servicios.' target='_blank' rel="noopener noreferrer" className={style.whatsapp_button_a}><img src={Whatsapp_logo} alt='logo instagram' className={style.whatsapp_button}></img></a>
                     </div>
             </Box>
         </section>
