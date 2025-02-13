@@ -22,7 +22,7 @@ function Contact() {
                             <h2 className={style.h2}><b>Descubre cómo estamos transformando vidas en redes sociales</b></h2>
                             <div className={style.social_media}>
                                 <div className={style.social_media_logo_container}>
-                                    <a href='https://wa.me/573137711678?text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20sus%20servicios.' target='_blank' rel="noopener noreferrer"><img src={Whatsapp_logo} alt='logo whatsapp' ></img></a>
+                                    <a href='https://wa.me/573147711678?text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20sus%20servicios.' target='_blank' rel="noopener noreferrer"><img src={Whatsapp_logo} alt='logo whatsapp' ></img></a>
                                 </div>
                                 <div className={style.social_media_logo_container}>
                                     <a href='https://www.facebook.com/corpopaz' target='_blank' rel="noopener noreferrer"><img src={Facebook_logo} alt='logo instagram' ></img></a>
