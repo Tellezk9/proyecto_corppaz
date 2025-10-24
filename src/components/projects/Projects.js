@@ -2,9 +2,9 @@ import React from 'react';
 import style from './Projects.module.css';
 import { Box } from '@mui/material';
 
-import Alimentos from '../../assets/Proyectos/entrega_productos.png';
-import Muchas_personas from '../../assets/Proyectos/muchas_personas.png';
-import Hombre from '../../assets/Proyectos/hombre.png';
+import Alimentos from '../../assets/Proyectos/entrega_productos.webp';
+import Muchas_personas from '../../assets/Proyectos/muchas_personas.webp';
+import Hombre from '../../assets/Proyectos/hombre.webp';
 import Flecha from '../../assets/Proyectos/flecha.png';
 
 function Projects() {
