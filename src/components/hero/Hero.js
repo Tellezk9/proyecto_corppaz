@@ -5,12 +5,12 @@ import { useLocation } from "react-router-dom";
 
 
 function Hero() {
-    
+
     const location = useLocation();
     const isProgramPage = location.pathname === '/programa-social'
 
     return (
-    
+
         <section className={`${isProgramPage ? style.section_program : style.section}`}>
             <Header></Header>
             <div className={style.container_banner}>
