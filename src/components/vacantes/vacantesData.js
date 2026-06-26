@@ -29,8 +29,7 @@ export const vacantesList = [
     ],
     "perfil": [
       "Profesional en Ingeniería Agronómica, Agroforestal, Administración Agropecuaria o afines.",
-      "Experiencia profesional general mínima de 2 años coordinando y/o gerenciando proyectos",
-      "rurales sostenibles.",
+      "Experiencia profesional general mínima de 2 años coordinando y/o gerenciando proyectos rurales sostenibles.",
       "Experiencia trabajando con comunidades rurales preferiblemente con grupos étnicos"
     ],
     "documentos": [
@@ -108,7 +107,7 @@ export const vacantesList = [
     "area": "Técnico / Campo",
     "contractType": "Contrato de prestación de servicios",
     "highlighted": true,
-    "salary": "$5.000.000 COP mensual",
+    "salary": "$4.500.000 COP mensual",
     "duration": "Diez (10) meses, conforme al cronograma del proyecto.",
     "antecedentes": "En el marco del Memorando de Acuerdo MA 571 de 2026 suscrito entre las Naciones Unidas, a\r\ntravés de la Oficina de las Naciones Unidas contra la Droga y el Delito, y la CORPORACIÓN TODOS\r\nPOR LA PAZ – CORPPAZ, en calidad de socio implementador, se adelanta la ejecución del\r\nproyecto denominado:\r\n“El pueblo Bari consolida un modelo de desarrollo agropecuario eficiente y sostenible”.\r\nEste proyecto se desarrolla en articulación con la Agencia de Desarrollo Rural, en el marco del\r\nConvenio No. 1226 de 2023, orientado a la implementación de Proyectos Integrales de Desarrollo\r\nAgropecuario y Rural – PIDAR, con el propósito de promover el desarrollo competitivo, sostenible\r\ny con enfoque territorial en comunidades rurales.\r\nLa iniciativa está dirigida al fortalecimiento de las capacidades productivas, organizativas,\r\nambientales y comerciales de las familias beneficiarias del Resguardo Indígena Catalaura,\r\nperteneciente al pueblo Bari, mediante la implementación de sistemas productivos sostenibles,\r\nel mejoramiento de infraestructura productiva, el acceso a bienes y servicios agropecuarios, y el\r\nacompañamiento técnico integral.\r\nEn este contexto, el proyecto contempla la ejecución de componentes clave como:\r\n✓ Asistencia técnica integral a las unidades productivas\r\n✓ Implementación de planes de capacitación y extensión rural\r\n✓ Desarrollo de infraestructura productiva (centros de beneficio, biocobertizos, entre otros)\r\n✓ Fortalecimiento socio-organizacional\r\n✓ Implementación de estrategias de sostenibilidad ambiental\r\n✓ Dotación de insumos, equipos y materiales productivos\r\nEn cumplimiento de las obligaciones establecidas en el Memorando de Acuerdo, así como de\r\nlos requisitos definidos para la ejecución de los recursos y la obtención de los desembolsos, se\r\nhace necesario adelantar procesos contractuales que garanticen la adecuada implementación\r\nde las actividades del proyecto, bajo criterios de transparencia, calidad técnica y eficiencia.\r\nEn este sentido, se formulan los presentes Términos de Referencia con el fin de establecer las\r\ncondiciones técnicas, administrativas y operativas para la contratación del personal Profesional\r\ny/o técnico pecuario especialista en especies menores, asegurando su alineación con los\r\nobjetivos del proyecto y los lineamientos establecidos por Oficina de las Naciones Unidas contra\r\nla Droga y el Delito.",
     "objeto": "Contratar un profesional y/o técnico pecuario especialista en especies menores para la\r\nprestación de servicios de asistencia técnica a las familias beneficiarias del proyecto.",
@@ -125,8 +124,7 @@ export const vacantesList = [
     "productos": [],
     "perfil": [
       "Profesional y/o técnico pecuario Zootecnista, administrador de empresas agropecuarias o afines",
-      "Experiencia al menos 2 años en manejo de especies menores para explotaciones comerciales y",
-      "de autoconsumo.",
+      "Experiencia al menos 2 años en manejo de especies menores para explotaciones comerciales y de autoconsumo.",
       "Con conocimiento y experiencia en la implementación de prácticas agroecológicas.",
       "Experiencia trabajando con comunidades rurales preferiblemente con grupos étnicos"
     ],
@@ -238,11 +236,8 @@ export const vacantesList = [
     ],
     "perfil": [
       "Ingeniero agrónomo, agrónomo especialista en cacao.",
-      "Experiencia al menos 2 años en manejo de la cadena del cacao en los diferentes",
-      "eslabones y etapas, con conocimiento y experiencia en la implementación de prácticas",
-      "agroecológicas y sistemas agroforestales.",
-      "Experiencia trabajando en asistencia técnica con comunidades rurales preferiblemente",
-      "con grupos étnicos"
+      "Experiencia al menos 2 años en manejo de la cadena del cacao en los diferentes eslabones y etapas, con conocimiento y experiencia en la implementación de prácticas agroecológicas y sistemas agroforestales.",
+      "Experiencia trabajando en asistencia técnica con comunidades rurales preferiblemente con grupos étnicos"
     ],
     "documentos": [
       "Hoja de vida",
@@ -344,13 +339,9 @@ export const vacantesList = [
       "Apoyo en planes de manejo Informe final"
     ],
     "perfil": [
-      "Técnico y/o tecnólogo en producción agrícola o áreas afines especialista en cultivo de",
-      "cacao.",
-      "Experiencia al menos 2 años en manejo de la cadena del cacao en los diferentes",
-      "eslabones y etapas, con conocimiento y experiencia en la implementación de prácticas",
-      "agroecológicas y sistemas agroforestales.",
-      "Experiencia trabajando en asistencia técnica con comunidades rurales preferiblemente",
-      "con grupos étnicos"
+      "Técnico y/o tecnólogo en producción agrícola o áreas afines especialista en cultivo de cacao.",
+      "Experiencia al menos 2 años en manejo de la cadena del cacao en los diferentes eslabones y etapas, con conocimiento y experiencia en la implementación de prácticas agroecológicas y sistemas agroforestales.",
+      "Experiencia trabajando en asistencia técnica con comunidades rurales preferiblemente con grupos étnicos"
     ],
     "documentos": [
       "Hoja de vida",
@@ -546,22 +537,15 @@ export const vacantesList = [
     ],
     "perfil": [
       "Profesional en Contaduría pública titulado con tarjeta profesional vigente",
-      "Experiencia general",
-      "Contador Público Titulado, con experiencia profesional mínima de dos (2) años en procesos",
-      "contables, financieros y administrativos.",
-      "Experiencia específica",
-      "Experiencia mínima de un (1) año en apoyo contable y financiero de proyectos sociales,",
-      "rurales, productivos y/o de cooperación, preferiblemente relacionados con procesos",
-      "comunitarios o trabajo con comunidades rurales y grupos étnicos.",
+      "Contador Público Titulado, con experiencia profesional mínima de dos (2) años en procesos contables, financieros y administrativos.",
+      "Experiencia mínima de un (1) año en apoyo contable y financiero de proyectos sociales, rurales, productivos y/o de cooperación, preferiblemente relacionados con procesos comunitarios o trabajo con comunidades rurales y grupos étnicos.",
       "Se valorará experiencia en:",
       "Manejo y organización de soportes contables y financieros.",
       "Elaboración de informes financieros y presupuestales.",
       "Seguimiento a ejecución financiera de proyectos.",
       "Manejo de herramientas ofimáticas y archivo documental.",
       "Procesos de compras, legalización y control de gastos.",
-      "Además, deberá contar con capacidad de trabajo articulado con equipos técnicos y",
-      "comunitarios, manteniendo criterios de transparencia, organización y confidencialidad en",
-      "el manejo de la información financiera del proyecto."
+      "Además, deberá contar con capacidad de trabajo articulado con equipos técnicos y comunitarios, manteniendo criterios de transparencia, organización y confidencialidad en el manejo de la información financiera del proyecto."
     ],
     "documentos": [
       "Hoja de vida",
@@ -678,13 +662,8 @@ export const vacantesList = [
     ],
     "perfil": [
       "Profesional en áreas administrativas, contables o afines.",
-      "Experiencia general",
-      "Mínima de dos (2) años en asistencia profesional o técnica de proyectos de desarrollo",
-      "productivo sostenible en la línea productiva propuesta.",
-      "Experiencia específica",
-      "Experiencia mínima de 1 año en la zona de desarrollo del proyecto en asistencia profesional",
-      "en proyectos de desarrollo productivo sostenible y acompañamiento en procesos de",
-      "fortalecimiento organizacional."
+      "Mínima de dos (2) años en asistencia profesional o técnica de proyectos de desarrollo productivo sostenible en la línea productiva propuesta.",
+      "Experiencia mínima de 1 año en la zona de desarrollo del proyecto en asistencia profesional en proyectos de desarrollo productivo sostenible y acompañamiento en procesos de fortalecimiento organizacional."
     ],
     "documentos": [
       "Hoja de vida",
@@ -797,16 +776,9 @@ export const vacantesList = [
       "Informe final"
     ],
     "perfil": [
-      "Profesional en ciencias sociales y/o humanas, con experiencia en organizaciones de",
-      "mujeres y/o jóvenes, enfoque de género y mecanismos de participación ciudadana con",
-      "enfoque étnico. Se valorará formación adicional en trabajo comunitario y enfoque",
-      "intercultural.",
-      "Experiencia general",
+      "Profesional en ciencias sociales y/o humanas, con experiencia en organizaciones de mujeres y/o jóvenes, enfoque de género y mecanismos de participación ciudadana con enfoque étnico. Se valorará formación adicional en trabajo comunitario y enfoque intercultural.",
       "Mínima de dos (2) años en proyectos sociales, en contextos rurales.",
-      "Experiencia específica",
-      "Experiencia mínima de 1 año como profesional social en la zona de desarrollo del proyecto",
-      "en proyectos productivos sostenible en la línea productiva propuesta. Experiencia en",
-      "enfoque diferencial es altamente valorada."
+      "Experiencia mínima de 1 año como profesional social en la zona de desarrollo del proyecto en proyectos productivos sostenible en la línea productiva propuesta. Experiencia en enfoque diferencial es altamente valorada."
     ],
     "documentos": [
       "Hoja de vida",
@@ -973,8 +945,7 @@ export const vacantesList = [
     ],
     "perfil": [
       "Persona con dominio del idioma español y lengua Barí (oral y escrito)",
-      "Preferiblemente perteneciente a la comunidad o con amplio conocimiento del contexto",
-      "cultural",
+      "Preferiblemente perteneciente a la comunidad o con amplio conocimiento del contexto cultural",
       "Habilidades de comunicación intercultural",
       "Capacidad de trabajo comunitario",
       "Tener los dos lenguajes aprendidos tanto el español como la lengua Bari"
@@ -1189,8 +1160,7 @@ export const vacantesList = [
     "perfil": [
       "Profesional de las ciencias Administrativas, económicas, de mercadeo o afines.",
       "Contar con tarjeta o matrícula profesional vigente en los casos exigidos por la Ley",
-      "Experiencia específica mínima de 1 año capacitador en fortalecimiento comercial,",
-      "preferiblemente con experiencia en la zona y con experiencia en enfoque de género."
+      "Experiencia específica mínima de 1 año capacitador en fortalecimiento comercial, preferiblemente con experiencia en la zona y con experiencia en enfoque de género."
     ],
     "documentos": [
       "Hoja de vida",
