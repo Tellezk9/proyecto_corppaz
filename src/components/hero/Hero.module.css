@@ -2,7 +2,7 @@
 
 .section {
     background-color: var(--background-color);
-    background-image: url('../../assets/Header/Fondo_manos_header.png');
+    background-image: url('../../assets/Header/Fondo_manos_header.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

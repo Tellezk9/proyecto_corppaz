@@ -2,9 +2,9 @@ import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import style from './Testimonials.module.css';
 import { Box } from '@mui/material';
 
-import Img_regalos from '../../assets/Testimonios/regalos.png'
-import Img_raza from '../../assets/Testimonios/dia_de_la_raza.png'
-import Img_arte from '../../assets/Testimonios/arte.png'
+import Img_regalos from '../../assets/Testimonios/regalos.webp'
+import Img_raza from '../../assets/Testimonios/dia_de_la_raza.webp'
+import Img_arte from '../../assets/Testimonios/arte.webp'
 
 
 function Testimonials() {

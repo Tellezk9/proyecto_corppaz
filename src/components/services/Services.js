@@ -3,7 +3,7 @@ import { Box } from "@mui/material";
 
 import style from './Services.module.css';
 
-import image from '../../assets/Servicios/Hombre_canasta.png'
+import image from '../../assets/Servicios/Hombre_canasta.webp'
 
 function Services() {
     return (
