@@ -10,7 +10,7 @@
 
 # production
 /build
-
+/vacantes_md
 # misc
 .DS_Store
 .env.local
