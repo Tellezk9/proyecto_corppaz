@@ -260,35 +260,35 @@
     background-color: #fff;
     border: 1.5px solid rgba(4, 58, 57, 0.15);
     border-radius: 24px;
-    padding: 30px;
+    padding: 22px;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
 }
 
 .sidebarTitle {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: var(--primary-color);
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 14px;
     font-weight: 700;
     border-bottom: 2px solid var(--secondary-color);
-    padding-bottom: 12px;
+    padding-bottom: 8px;
 }
 
 .sidebarDetails {
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    margin-bottom: 30px;
+    gap: 10px;
+    margin-bottom: 18px;
 }
 
 .sidebarDetailItem {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 2px;
 }
 
 .detailLabel {
-    font-size: 0.85rem;
+    font-size: 0.76rem;
     color: #888;
     font-weight: 700;
     text-transform: uppercase;
@@ -296,7 +296,7 @@
 }
 
 .detailValue {
-    font-size: 1.05rem;
+    font-size: 0.95rem;
     color: var(--primary-color);
     font-weight: 700;
     word-break: break-word;
@@ -304,7 +304,7 @@
 }
 
 .detailValueClose {
-    font-size: 1.05rem;
+    font-size: 0.95rem;
     color: #b73f3f;
     font-weight: 700;
     word-break: break-word;
@@ -312,7 +312,7 @@
 }
 
 .postulationActionBox {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     position: relative;
 }
 
@@ -321,9 +321,9 @@
     background-color: var(--primary-color);
     color: #fff;
     border: none;
-    padding: 16px;
+    padding: 12px;
     border-radius: 30px;
-    font-size: 1.05rem;
+    font-size: 0.95rem;
     font-weight: 700;
     cursor: pointer;
     display: flex;
@@ -367,14 +367,14 @@
     background-color: #fdfaf6;
     border: 1px solid rgba(226, 195, 149, 0.4);
     border-radius: 12px;
-    padding: 15px;
+    padding: 12px;
 }
 
 .instructionText {
-    font-size: 0.88rem;
+    font-size: 0.82rem;
     color: #666;
     line-height: 1.5;
-    margin: 0 0 10px 0;
+    margin: 0 0 6px 0;
 }
 
 .instructionText:last-child {
@@ -384,12 +384,12 @@
 .emailList {
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    margin-bottom: 12px;
+    gap: 3px;
+    margin-bottom: 8px;
 }
 
 .emailLink {
-    font-size: 0.9rem;
+    font-size: 0.84rem;
     color: var(--primary-color);
     font-weight: 700;
     text-decoration: underline;
@@ -578,5 +578,111 @@
 
     .cardMini {
         padding: 15px;
+    }
+}
+
+/* Premium Info Button */
+.infoBtn {
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 0.88rem;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 16px;
+    border-radius: 30px;
+    background-color: var(--secondary-color);
+    border: 1px solid rgba(4, 58, 57, 0.15);
+    margin-bottom: 15px;
+    transition: all 0.2s ease;
+    width: 100%;
+    justify-content: center;
+    gap: 8px;
+}
+
+.infoBtn:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+    border-color: var(--primary-color);
+    transform: translateY(-1px);
+}
+
+/* Premium Popover Styles */
+.instructionsPopover {
+    position: absolute;
+    bottom: calc(100% + 12px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 290px;
+    background-color: #fff;
+    border: 1.5px solid rgba(4, 58, 57, 0.18);
+    border-radius: 14px;
+    padding: 15px;
+    box-shadow: 0 10px 25px rgba(4, 58, 57, 0.12);
+    z-index: 100;
+    text-align: left;
+    box-sizing: border-box;
+    animation: popoverFadeIn 0.2s ease-out;
+}
+
+.instructionsPopover::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 8px solid transparent;
+    border-top-color: #fff;
+}
+
+.instructionsPopover::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 9px solid transparent;
+    border-top-color: rgba(4, 58, 57, 0.18);
+    z-index: -1;
+}
+
+.popoverHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    padding-bottom: 6px;
+}
+
+.popoverHeader strong {
+    font-size: 0.85rem;
+    color: var(--primary-color);
+}
+
+.popoverClose {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #9ca3af;
+    cursor: pointer;
+    padding: 0 4px;
+    line-height: 1;
+}
+
+.popoverClose:hover {
+    color: var(--primary-color);
+}
+
+@keyframes popoverFadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, 5px);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, 0);
     }
 }

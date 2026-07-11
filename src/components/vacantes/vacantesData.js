@@ -157,37 +157,37 @@ export const vacantesList = [
     "cronograma": [
       {
         "actividad": "Publicación de la convocatoria",
-        "fecha": "26 junio 2026",
-        "hora": "2:00 pm",
-        "lugar": "https://corppaz.org/  https://www.instagram.com/corporaciontodosporlapaz?utm_source=qr  https://www.facebook.com/share/1CnZF4bm1e/?mibextid=wwXlfr"
+        "fecha": "10 julio 2026",
+        "hora": "5:00 pm",
+        "lugar": "https://corppaz.org/ https://www.instagram.com/corporaciontodosporlapaz?utm_source=qr https://www.facebook.com/share/1CnZF4bm1e/?mibextid=wwXlfr"
       },
       {
         "actividad": "Cierre y recepción de hojas de vida en medio magnético hasta",
-        "fecha": "10 julio 2026",
+        "fecha": "17 julio 2026",
         "hora": "10:00 am",
         "lugar": "corporaciontodosporlapaz@gmail.com cesar.carrillogelvez1@un.org"
       },
       {
         "actividad": "CTL de cierre de la convocatoria",
-        "fecha": "10 julio 2026",
+        "fecha": "17 julio 2026",
         "hora": "2:00 pm",
         "lugar": "Oficina Corppaz"
       },
       {
         "actividad": "CTL de revisión de hoja de vida de los aspirantes, y preselección",
-        "fecha": "10 julio 2026",
+        "fecha": "17 julio 2026",
         "hora": "2:00 pm",
         "lugar": "Oficina Corppaz"
       },
       {
         "actividad": "Entrevistas a los aspirantes preseleccionados",
-        "fecha": "13 julio 2026",
+        "fecha": "24 julio 2026",
         "hora": "2:00 pm",
         "lugar": "Microsoft Teams"
       },
       {
         "actividad": "Publicación de resultados",
-        "fecha": "15 julio 2026",
+        "fecha": "27 julio 2026",
         "hora": "2:00 pm",
         "lugar": "Comunicación directa con los seleccionados"
       }
@@ -372,39 +372,39 @@ export const vacantesList = [
     "cronograma": [
       {
         "actividad": "Publicación de la convocatoria",
-        "fecha": "26 junio 2026",
-        "hora": "2:00 pm",
-        "lugar": "https://corppaz.org/  https://www.instagram.com/corporaciontodosporlapaz?utm_source=qr  https://www.facebook.com/share/1CnZF4bm1e/?mibextid=wwXlfr"
+        "fecha": "10 julio 2026",
+        "hora": "5:00 pm",
+        "lugar": "https://corppaz.org/ https://www.instagram.com/corporaciontodosporlapaz?utm_source=qr https://www.facebook.com/share/1CnZF4bm1e/?mibextid=wwXlfr"
       },
       {
         "actividad": "Cierre y recepción de hojas de vida en medio magnético hasta",
-        "fecha": "10 julio 2026",
+        "fecha": "17 julio 2026",
         "hora": "10:00 am",
         "lugar": "corporaciontodosporlapaz@gmail.com cesar.carrillogelvez1@un.org"
       },
       {
         "actividad": "CTL de cierre de la convocatoria",
-        "fecha": "10 julio 2026",
+        "fecha": "17 julio 2026",
         "hora": "2:00 pm",
         "lugar": "Oficina Corppaz"
       },
       {
         "actividad": "CTL de revisión de hoja de vida de los aspirantes, y preselección",
-        "fecha": "10 julio 2026",
+        "fecha": "17 julio 2026",
         "hora": "2:00 pm",
         "lugar": "Oficina Corppaz"
       },
       {
         "actividad": "Entrevistas a los aspirantes preseleccionados",
-        "fecha": "13 julio 2026",
+        "fecha": "24 julio 2026",
         "hora": "2:00 pm",
         "lugar": "Microsoft Teams"
       },
       {
         "actividad": "Publicación de resultados",
-        "fecha": "15 julio 2026",
+        "fecha": "27 julio 2026",
         "hora": "2:00 pm",
-        "lugar": "Comunicación directa con los seleccionados"
+        "lugar": "Communication directa con los seleccionados"
       }
     ],
     "supervisor": "La supervisión estará a cargo de CORPPAZ en articulación con Oficina de las Naciones Unidas contra la Droga y el Delito, ADR y el Comité Técnico Local (CTL).",
@@ -694,37 +694,37 @@ export const vacantesList = [
     "cronograma": [
       {
         "actividad": "Publicación de la convocatoria",
-        "fecha": "26 junio 2026",
+        "fecha": "10 julio 2026",
         "hora": "2:00 pm",
-        "lugar": "https://corppaz.org/  https://www.instagram.com/corporaciontodosporlapaz?utm_source=qr  https://www.facebook.com/share/1CnZF4bm1e/?mibextid=wwXlfr"
+        "lugar": "https://corppaz.org/ https://www.instagram.com/corporaciontodosporlapaz?utm_source=qr https://www.facebook.com/share/1CnZF4bm1e/?mibextid=wwXlfr"
       },
       {
         "actividad": "Cierre y recepción de hojas de vida en medio magnético hasta",
-        "fecha": "10 julio 2026",
+        "fecha": "17 julio 2026",
         "hora": "10:00 am",
         "lugar": "corporaciontodosporlapaz@gmail.com cesar.carrillogelvez1@un.org"
       },
       {
         "actividad": "CTL de cierre de la convocatoria",
-        "fecha": "10 julio 2026",
+        "fecha": "17 julio 2026",
         "hora": "2:00 pm",
         "lugar": "Oficina Corppaz"
       },
       {
         "actividad": "CTL de revisión de hoja de vida de los aspirantes, y preselección",
-        "fecha": "10 julio 2026",
+        "fecha": "17 julio 2026",
         "hora": "2:00 pm",
         "lugar": "Oficina Corppaz"
       },
       {
         "actividad": "Entrevistas a los aspirantes preseleccionados",
-        "fecha": "13 julio 2026",
+        "fecha": "24 julio 2026",
         "hora": "2:00 pm",
         "lugar": "Microsoft Teams"
       },
       {
         "actividad": "Publicación de resultados",
-        "fecha": "15 julio 2026",
+        "fecha": "27 julio 2026",
         "hora": "2:00 pm",
         "lugar": "Comunicación directa con los seleccionados"
       }
@@ -809,37 +809,37 @@ export const vacantesList = [
     "cronograma": [
       {
         "actividad": "Publicación de la convocatoria",
-        "fecha": "26 junio 2026",
+        "fecha": "10 julio 2026",
         "hora": "2:00 pm",
-        "lugar": "https://corppaz.org/  https://www.instagram.com/corporaciontodosporlapaz?utm_source=qr  https://www.facebook.com/share/1CnZF4bm1e/?mibextid=wwXlfr"
+        "lugar": "https://corppaz.org/ https://www.instagram.com/corporaciontodosporlapaz?utm_source=qr https://www.facebook.com/share/1CnZF4bm1e/?mibextid=wwXlfr"
       },
       {
         "actividad": "Cierre y recepción de hojas de vida en medio magnético hasta",
-        "fecha": "10 julio 2026",
+        "fecha": "17 julio 2026",
         "hora": "10:00 am",
         "lugar": "corporaciontodosporlapaz@gmail.com cesar.carrillogelvez1@un.org"
       },
       {
         "actividad": "CTL de cierre de la convocatoria",
-        "fecha": "10 julio 2026",
+        "fecha": "17 julio 2026",
         "hora": "2:00 pm",
         "lugar": "Oficina Corppaz"
       },
       {
         "actividad": "CTL de revisión de hoja de vida de los aspirantes, y preselección",
-        "fecha": "10 julio 2026",
+        "fecha": "17 julio 2026",
         "hora": "2:00 pm",
         "lugar": "Oficina Corppaz"
       },
       {
         "actividad": "Entrevistas a los aspirantes preseleccionados",
-        "fecha": "13 julio 2026",
+        "fecha": "24 julio 2026",
         "hora": "2:00 pm",
         "lugar": "Microsoft Teams"
       },
       {
         "actividad": "Publicación de resultados",
-        "fecha": "15 julio 2026",
+        "fecha": "27 julio 2026",
         "hora": "2:00 pm",
         "lugar": "Comunicación directa con los seleccionados"
       }
@@ -901,7 +901,7 @@ export const vacantesList = [
         "cesar.carrillogelvez1@un.org"
       ],
       "asunto": "MUJERES DE LA COMUNIDAD PARA ZONAS DE CUIDADO MEMORANDO DE ACUERDO MA 571 DE 2026",
-      "instrucciones": "La selección se realizará directamente en coordinación con el Cabildo del Resguardo Indígena Motilón Barí Catalaura mediante asamblea comunitaria."
+      "instrucciones": "Las personas interesadas en esta vacante deben enviar su hoja de vida y soportes de manera magnética a los correos electrónicos indicados con el asunto especificado antes del cierre de la convocatoria."
     },
     "cronograma": [
       {
@@ -1191,37 +1191,37 @@ export const vacantesList = [
     "cronograma": [
       {
         "actividad": "Publicación de la convocatoria",
-        "fecha": "26 junio 2026",
+        "fecha": "10 julio 2026",
         "hora": "2:00 pm",
-        "lugar": "https://corppaz.org/  https://www.instagram.com/corporaciontodosporlapaz?utm_source=qr  https://www.facebook.com/share/1CnZF4bm1e/?mibextid=wwXlfr"
+        "lugar": "https://corppaz.org/  https://www.instagram.com/corporaciontodosporlapaz?utm_source=qr  https://www.facebook.com/share/1CnZF4bm1e/?mibextid=wwXIfr"
       },
       {
         "actividad": "Cierre y recepción de hojas de vida en medio magnético hasta",
-        "fecha": "10 julio 2026",
+        "fecha": "17 julio 2026",
         "hora": "10:00 am",
         "lugar": "corporaciontodosporlapaz@gmail.com cesar.carrillogelvez1@un.org"
       },
       {
         "actividad": "CTL de cierre de la convocatoria",
-        "fecha": "10 julio 2026",
+        "fecha": "17 julio 2026",
         "hora": "2:00 pm",
         "lugar": "Oficina Corppaz"
       },
       {
         "actividad": "CTL de revisión de hoja de vida de los aspirantes, y preselección",
-        "fecha": "10 julio 2026",
+        "fecha": "17 julio 2026",
         "hora": "2:00 pm",
         "lugar": "Oficina Corppaz"
       },
       {
         "actividad": "Entrevistas a los aspirantes preseleccionados",
-        "fecha": "13 julio 2026",
+        "fecha": "24 julio 2026",
         "hora": "2:00 pm",
         "lugar": "Microsoft Teams"
       },
       {
         "actividad": "Publicación de resultados",
-        "fecha": "15 julio 2026",
+        "fecha": "27 julio 2026",
         "hora": "2:00 pm",
         "lugar": "Comunicación directa con los seleccionados"
       }
@@ -1287,37 +1287,37 @@ export const vacantesList = [
     "cronograma": [
       {
         "actividad": "Publicación de la convocatoria",
-        "fecha": "26 junio 2026",
+        "fecha": "10 julio 2026",
         "hora": "2:00 pm",
-        "lugar": "https://corppaz.org/  https://www.instagram.com/corporaciontodosporlapaz?utm_source=qr  https://www.facebook.com/share/1CnZF4bm1e/?mibextid=wwXlfr"
+        "lugar": "https://corppaz.org/ https://www.instagram.com/corporaciontodosporlapaz?utm_source=qr https://www.facebook.com/share/1CnZF4bm1e/?mibextid=wwXlfr"
       },
       {
         "actividad": "Cierre y recepción de hojas de vida en medio magnético hasta",
-        "fecha": "10 julio 2026",
+        "fecha": "17 julio 2026",
         "hora": "10:00 am",
         "lugar": "corporaciontodosporlapaz@gmail.com cesar.carrillogelvez1@un.org"
       },
       {
         "actividad": "CTL de cierre de la convocatoria",
-        "fecha": "10 julio 2026",
+        "fecha": "17 julio 2026",
         "hora": "2:00 pm",
         "lugar": "Oficina Corppaz"
       },
       {
         "actividad": "CTL de revisión de hoja de vida de los aspirantes, y preselección",
-        "fecha": "10 julio 2026",
+        "fecha": "17 julio 2026",
         "hora": "2:00 pm",
         "lugar": "Oficina Corppaz"
       },
       {
         "actividad": "Entrevistas a los aspirantes preseleccionados",
-        "fecha": "13 julio 2026",
+        "fecha": "24 julio 2026",
         "hora": "2:00 pm",
         "lugar": "Microsoft Teams"
       },
       {
         "actividad": "Publicación de resultados",
-        "fecha": "15 julio 2026",
+        "fecha": "27 julio 2026",
         "hora": "2:00 pm",
         "lugar": "Comunicación directa con los seleccionados"
       }

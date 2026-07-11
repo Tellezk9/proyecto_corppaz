@@ -6,8 +6,20 @@ import style from './VacanteDetail.module.css';
 function VacanteDetail() {
   const { id } = useParams();
   const [copiedEmail, setCopiedEmail] = useState(false);
+  const [modalOpen, setModalOpen] = useState(false);
 
   const vacancy = vacantesList.find((v) => v.id === id);
+
+  // Extract short total value if present
+  const getTotalValueShort = (totalVal) => {
+    if (!totalVal) return null;
+    const match = totalVal.match(/\(\$([^)]+)\)/);
+    if (match && match[1]) {
+      return `$${match[1].replace('$', '')} COP`;
+    }
+    return totalVal;
+  };
+  const totalValueShort = vacancy ? getTotalValueShort(vacancy.totalValue) : null;
 
   // Scroll to top on load
   useEffect(() => {
@@ -38,7 +50,7 @@ function VacanteDetail() {
     navigator.clipboard.writeText(emailsStr).then(() => {
       setCopiedEmail(true);
       setTimeout(() => setCopiedEmail(false), 3000);
-      
+
       // Prefilled mailto link
       const mailtoLink = `mailto:${vacancy.postulacion.emails.join(',')}?subject=${encodeURIComponent(vacancy.postulacion.asunto)}&body=${encodeURIComponent("Hola, estoy interesado en postularme a la vacante de " + vacancy.title + ". Adjunto mi hoja de vida y soportes correspondientes.")}`;
       window.location.href = mailtoLink;
@@ -185,6 +197,11 @@ function VacanteDetail() {
               </div>
               <div className={`${style.sectionBlock} ${style.cardMini}`}>
                 <h4>Esquema de Pago</h4>
+                {vacancy.totalValue && (
+                  <p style={{ marginBottom: '12px', fontSize: '0.95rem', color: '#374151' }}>
+                    <strong>Valor total:</strong> {vacancy.totalValue}
+                  </p>
+                )}
                 <p>{vacancy.formaPago}</p>
               </div>
             </div>
@@ -211,6 +228,12 @@ function VacanteDetail() {
                   <span className={style.detailLabel}>Honorarios:</span>
                   <span className={style.detailValue}>{vacancy.salary}</span>
                 </div>
+                {totalValueShort && (
+                  <div className={style.sidebarDetailItem}>
+                    <span className={style.detailLabel}>Valor total del contrato:</span>
+                    <span className={style.detailValue}>{totalValueShort}</span>
+                  </div>
+                )}
                 <div className={style.sidebarDetailItem}>
                   <span className={style.detailLabel}>Duración:</span>
                   <span className={style.detailValue}>{vacancy.duration}</span>
@@ -240,6 +263,29 @@ function VacanteDetail() {
                 <p className={style.instructionText}>
                   <strong>¿Cómo postularse?</strong>
                 </p>
+                {vacancy.postulacion.instrucciones && (
+                  <div style={{ position: 'relative', width: '100%' }}>
+                    <button onClick={() => setModalOpen(!modalOpen)} className={style.infoBtn}>
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="12" y1="16" x2="12" y2="12"></line>
+                        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                      </svg>
+                      Instrucciones y Notas de envío
+                    </button>
+                    {modalOpen && (
+                      <div className={style.instructionsPopover}>
+                        <div className={style.popoverHeader}>
+                          <strong>Notas importantes</strong>
+                          <button className={style.popoverClose} onClick={() => setModalOpen(false)}>&times;</button>
+                        </div>
+                        <p style={{ whiteSpace: 'pre-line', margin: 0, fontSize: '0.82rem', color: '#4b5563', lineHeight: '1.5' }}>
+                          {vacancy.postulacion.instrucciones}
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                )}
                 <p className={style.instructionText}>
                   Envía tu hoja de vida y soportes académicos/laborales a los siguientes correos electrónicos:
                 </p>
@@ -264,5 +310,6 @@ function VacanteDetail() {
     </section>
   );
 }
+
 
 export default VacanteDetail;
